@@ -160,3 +160,4 @@ flowchart LR
 This repository serves as the official architectural specification and public development log for **Mycelium AI Core**.
 * All low-level engine implementations, synaptic matrices, and mathematical graph equations are proprietary (**Closed Source / Proprietary Research**).
 * Built natively to execute within the [`spikeasm_vm`](https://github.com/sangaafilum) ecosystem and sealed within the [`Obscura Stealth Codec`](https://github.com/sangaafilum/Obscura).
+
