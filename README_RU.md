@@ -160,3 +160,4 @@ flowchart LR
 Данный документ представляет собой официальное архитектурное описание и журнал исследований проекта **Mycelium AI Core**.
 * Исходный код ядра, топологические формулы и алгоритмы обучения защищены и находятся в статусе **Closed Source / Proprietary Research**.
 * Разработано для нативного исполнения в среде [`spikeasm_vm`](https://github.com/sangaafilum) и запечатано криптографическим стелс-контейнером [`Obscura Stealth Codec`](https://github.com/sangaafilum/Obscura).
+
