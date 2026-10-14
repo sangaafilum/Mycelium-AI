@@ -2,12 +2,58 @@
 
 [![Status](https://img.shields.io/badge/Status-R%26D%20%2F%20Proprietary-blueviolet)]()
 [![Architecture](https://img.shields.io/badge/Paradigm-Spiking%20Neural%20Network-green)]()
+[![Language](https://img.shields.io/badge/DSL-Beszercess-blue)]()
+[![Runtime](https://img.shields.io/badge/Engine-spikeasm__vm-red)]()
 [![Hardware](https://img.shields.io/badge/Target-Metal%20GPU%20%2F%20Apple%20Silicon-orange)]()
-[![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Closed%20Source-red)]()
+[![Security](https://img.shields.io/badge/Encrypted%20By-Obscura%20Stealth%20Codec-black)]()
 
-> **Mycelium** is an alternative artificial intelligence architecture founded upon biologically plausible Spiking Neural Networks (SNN), discrete mycelial topology, and the custom `Beszercess` domain-specific language targeted for the `spikeasm_vm` virtual execution environment.
+> **Mycelium** is an alternative artificial intelligence architecture founded upon biologically plausible Spiking Neural Networks (SNN), discrete mycelial topology, and event-driven computing.
 > 
-> The project represents a radical departure from standard deep learning conventions: **a total elimination of continuous weight matrices (Float16/32 Transformers/LLMs) in favor of discrete event-driven spikes ("ones only, zero zeroes").**
+> The project represents a fundamental departure from deep learning conventions: **a total elimination of continuous floating-point weight matrices (Float16/32 Transformers/LLMs) in favor of discrete spike events ("ones only, zero zeroes").**
+
+---
+
+## 🏛️ Foundational Stack: The Execution Substrate
+
+To understand how Mycelium operates without matrices, one must understand the three foundational layers upon which it is built:
+
+```mermaid
+flowchart TD
+    subgraph L3["Layer 3: Knowledge & Intelligence"]
+        MYC["🍄 Mycelium AI Core<br/>(Topological Semantic Graphs, Neural Tries, CPG Grammar)"]
+    end
+    subgraph L2["Layer 2: Symbolic Specification & Compilation"]
+        BESZ["🧬 Beszercess DSL<br/>(Declarative Synaptic Language: Nodes, Delays, Thresholds, Leaks)"]
+    end
+    subgraph L1["Layer 1: Bare-Metal Virtual Machine"]
+        SVM["⚡ spikeasm_vm Runtime<br/>(Event-Driven SNN Engine, BinaryHeap Scheduler, Apple Metal GPU Parallelism)"]
+    end
+    subgraph L0["Layer 0: Cryptographic Perimeter"]
+        OBS["🛡️ Obscura Stealth Codec<br/>(Zero-Signature Weights Container, SNN NeuroRatchet Stream Protection)"]
+    end
+
+    MYC --> BESZ
+    BESZ --> SVM
+    SVM -. "Model weights & topologies sealed by" .-> OBS
+```
+
+### 1. `spikeasm_vm` — The Biomorphic Spiking Engine
+Traditional neural software relies on PyTorch or CUDA executing millions of dense matrix dot-products ($Y = W \cdot X + b$).  
+`spikeasm_vm` is a bare-metal virtual execution environment engineered in Rust. Instead of storing dense multidimensional arrays, it operates as an **asynchronous temporal event engine**:
+* **Event-Driven Simulation:** Neurons only consume computing cycles when an electrical impulse (spike) travels through a synapse. Dead silence (the absence of a signal) costs exactly 0% CPU/GPU overhead.
+* **Biophysical Accuracy:** Integrates Leaky Integrate-and-Fire (LIF) dynamics, custom refractory periods, membrane potential decay, and real-time Spike-Timing-Dependent Plasticity (STDP / LTD).
+* **Massive Parallelism via Apple Metal GPU:** When millions of synapses fire concurrently, `spikeasm_vm` offloads event propagation directly into Metal Compute Shaders (WGSL), utilizing the unified memory architecture of Apple Silicon with zero serialization overhead.
+
+### 2. `Beszercess` — The Synaptic Assembly Language
+`Beszercess` is a domain-specific declarative language (DSL) designed to describe neural topologies with biological fidelity:
+* Unlike conventional programming languages that express procedural logic (`if/else`, loops), `Beszercess` defines **physical conductivity**: how potential flows from source to target, after what temporal delay, with what synaptic weight, and under what leaky threshold.
+* It bridges human-readable semantic structure directly into native bytecode executable by `spikeasm_vm`, providing transparent visibility into every micro-circuit of the artificial brain.
+
+### 3. `Obscura Stealth Codec` — The Cryptographic Perimeter
+Why is the [Obscura Stealth Codec](https://github.com/sangaafilum/Obscura) integral to this ecosystem?
+* **Zero-Signature Containment:** Classic AI model weights (such as `.safetensors`, `.onnx`, or `.pt`) feature distinct magic headers, making them trivial to intercept, inspect, or reverse-engineer. Obscura encrypts the entire compiled Mycelium synaptic graph into an indistinguishable high-entropy noise stream with zero file headers or recognizable signatures.
+* **Neuro-Symmetric Security (NeuroRatchet):** Obscura itself utilizes an evolving SNN stream cipher that continually mutates its internal state with every byte processed. The model weights are secured by the very same biomorphic paradigm that drives the AI itself.
+* **Instantaneous Zero-Copy Access (VFS):** Leveraging Obscura's virtual file system index, `spikeasm_vm` can mount and stream gigabytes of synaptic topology directly into memory without full-container decompression.
 
 ---
 
@@ -66,15 +112,15 @@ flowchart LR
 - [x] **Hierarchical Syllable & Word Recognition Trie**
 - [x] **Topological Semantic Knowledge Graph**
 - [x] **Temporal Syntactic Pattern Generator (CPG)**
-- [ ] **Phase 1:** Lateral Inhibition & Winner-Takes-All (WTA) integration via negative synaptic weights (LTD) to suppress hyperactive synonym cascades.
-- [ ] **Phase 2:** Multi-Lingual Interlingua Bridge (mapping Russian, English, and multilingual lexicons onto invariant semantic conceptual nodes).
-- [ ] **Phase 3:** Native bytecode compilation and benchmark verification on `spikeasm_vm` leveraging Apple Metal GPU acceleration.
-- [ ] **Phase 4:** Recurrent synaptic feedback loops for working context memory and conversational interrogation.
+- [ ] **Phase 1: Dynamic Stabilization (Inhibition Engine)** — Lateral Inhibition & Winner-Takes-All (WTA) integration via negative synaptic weights (LTD) to suppress hyperactive synonym cascades.
+- [ ] **Phase 2: Multi-Lingual Interlingua Bridge** — Mapping Russian, English, and multilingual lexicons onto invariant semantic conceptual nodes.
+- [ ] **Phase 3: Hardware Verification on `spikeasm_vm`** — Full compilation of Mycelium bytecode and benchmarking on Apple Silicon Metal compute shaders.
+- [ ] **Phase 4: Working Memory Loops & Conversational Protocol** — Recurrent synaptic feedback loops for temporal context retention.
 
 ---
 
-## 🔒 Confidentiality & Licensing
+## 🔒 Confidentiality & Ecosystem Synergy
 
 This repository serves as the official architectural specification and public development log for **Mycelium AI Core**.
 * All low-level engine implementations, synaptic matrices, and mathematical graph equations are proprietary (**Closed Source / Proprietary Research**).
-* Developed in synergy with the bio-inspired cryptographic suite [Obscura](https://github.com/sangaafilum/Obscura).
+* Built natively to run within the [`spikeasm_vm`](https://github.com/sangaafilum) ecosystem and secured via the [`Obscura Stealth Codec`](https://github.com/sangaafilum/Obscura).
