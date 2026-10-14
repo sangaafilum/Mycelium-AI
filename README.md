@@ -10,6 +10,8 @@
 > **Mycelium** is an alternative artificial intelligence architecture founded upon biologically plausible Spiking Neural Networks (SNN), discrete mycelial topology, and event-driven computing.
 > 
 > The project represents a fundamental departure from deep learning conventions: **a total elimination of continuous floating-point weight matrices (Float16/32 Transformers/LLMs) in favor of discrete spike events ("ones only, zero zeroes").**
+> 
+> 🇷🇺 **[Документация на русском языке (README_RU.md)](README_RU.md)**
 
 ---
 
