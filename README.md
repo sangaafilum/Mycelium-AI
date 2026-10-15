@@ -19,17 +19,15 @@
 
 Mycelium is not an isolated academic script; it is the cognitive pinnacle of a multi-tiered, custom-built technological stack engineered over months of systems programming. To understand how Mycelium operates without matrices, one must examine its four symbiotic foundation layers:
 
-```mermaid
-flowchart TD
-    MYC["<b>🍄 Tier 3: Mycelium AI Core (Cognitive Synthesis)</b><br/>Topological Semantic Graphs (16k+ concepts) • Hierarchical Neural Tries • Spatial Chords Bus • CPG Grammar Engine"]
-    BESZ["<b>🧬 Tier 2: Beszercess DSL (Synaptic Assembly Language)</b><br/>Physical Synaptic Conductivity • Pure Topological Wiring • Event-Triggered Circuit Routing • Local STDP/LTD Mapping"]
-    SVM["<b>⚡ Tier 1: spikeasm_vm Runtime (Bare-Metal SNN Engine)</b><br/>Asynchronous BinaryHeap Priority Scheduler • LIF Biophysics • Massive Metal GPU Compute Shaders • Apple Silicon Zero-Copy"]
-    OBS["<b>🛡️ Tier 0: Obscura Stealth Codec (Cryptographic Perimeter)</b><br/>Zero-Signature High-Entropy Container • Evolving 4-Node SNN NeuroRatchet Stream Cipher • 5D QuantumSpin • Zero-Copy VFS"]
-
-    MYC ==> BESZ
-    BESZ ==> SVM
-    SVM -. "Compiled Bytecode Sealed & Streamed by" .-> OBS
-```
+| Layer / Tier | Component | Function & Role in Mycelium Ecosystem | Key Technical Specifications |
+| :--- | :--- | :--- | :--- |
+| **Tier 3** | **🍄 [Mycelium AI Core](https://github.com/sangaafilum/Mycelium-AI)** | **Cognitive Synthesis & Knowledge Graphs**<br/>Extracts high-dimensional ontological structures from lexical corpora, coordinates doubt detection, and drives speech synthesis. | • 16,165+ concept nodes<br/>• Tree of Matter ontology<br/>• Doubt Detector & self-reflection<br/>• CPG rhythm slot gates |
+| $\Downarrow$ | | *Compiled into native synaptic conductivity via Beszercess* | |
+| **Tier 2** | **🧬 [Beszercess DSL](https://github.com/sangaafilum/Beszercess)** | **Synaptic Specification & Symbolic Compilation**<br/>Declarative assembly language defining axonal conductivity, thresholds, and leaks without procedural loops. | • Vector ranges (`BUS[0..7]`)<br/>• Native pacemakers (`~interval`)<br/>• Modular AST macros (`module`/`use`)<br/>• Local STDP/LTD learning rates |
+| $\Downarrow$ | | *Target bytecode ingested and scheduled by VM* | |
+| **Tier 1** | **⚡ [spikeasm_vm](https://github.com/sangaafilum/spikeasm_vm)** | **Bare-Metal Spiking Runtime Engine**<br/>Asynchronous event-driven execution substrate running physics on Apple Silicon with zero idle compute cost. | • `BinaryHeap` priority event queue<br/>• Leaky Integrate-and-Fire (LIF)<br/>• Apple Metal GPU compute shaders (WGSL)<br/>• Unified Zero-Copy memory |
+| $\Downarrow$ | | *Model weights & topologies sealed and streamed by* | |
+| **Tier 0** | **🛡️ [Obscura Stealth Codec](https://github.com/sangaafilum/Obscura)** | **Cryptographic Perimeter & VFS Streaming**<br/>Zero-signature encryption container protecting compiled neural graphs against DPI, inspection, and reverse engineering. | • Zero-Signature high-entropy noise<br/>• 4-node SNN `NeuroRatchet` cipher<br/>• 5D `QuantumSpin` chaotic keygen<br/>• Instantaneous Zero-Copy VFS streaming |
 
 ---
 
