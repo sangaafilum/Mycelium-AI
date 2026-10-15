@@ -21,22 +21,14 @@ Mycelium is not an isolated academic script; it is the cognitive pinnacle of a m
 
 ```mermaid
 flowchart TD
-    subgraph L3["Tier 3: Cognitive & Knowledge Synthesis"]
-        MYC["🍄 Mycelium AI Core<br/>• Topological Semantic Knowledge Graphs (16k+ concepts)<br/>• Hierarchical Syllable-Word Neural Tries<br/>• Spatial Chords Parallel Receptor Bus<br/>• Central Pattern Generator (CPG Grammar Engine)"]
-    end
-    subgraph L2["Tier 2: Synaptic Description & Symbolic Compilation"]
-        BESZ["🧬 Beszercess Domain-Specific Language (DSL)<br/>• Physical Conductivity Formulation: Source >>[delay:weight]>> Target:v_th:leak<br/>• Native Biomorphic Assembly: Zero Loops, Pure Topological Flow<br/>• Event-Triggered Micro-Circuit Routing & STDP Plasticity Mapping"]
-    end
-    subgraph L1["Tier 1: Bare-Metal Execution Environment"]
-        SVM["⚡ spikeasm_vm (Rust Runtime Engine)<br/>• Asynchronous BinaryHeap Event Priority Scheduler<br/>• Leaky Integrate-and-Fire (LIF) Dynamic Biophysics<br/>• Massive Parallel Event Dispatch via Apple Metal GPU Compute Shaders (WGSL)<br/>• Unified Zero-Copy Memory Access on Apple Silicon"]
-    end
-    subgraph L0["Tier 0: Cryptographic Perimeter & Memory Streaming"]
-        OBS["🛡️ Obscura Stealth Codec<br/>• Zero-Signature High-Entropy Model Container (Zero Magic Bytes / Anti-DPI)<br/>• 4-Node SNN NeuroRatchet Stream Cipher with Live Synaptic Mutation<br/>• 5D QuantumSpin Chaotic Key Derivation (Golden Ratio & Möbius Topology)<br/>• Monolithic VFS Streaming: Instant Zero-Copy Bytecode Mounting"]
-    end
+    MYC["<b>🍄 Tier 3: Mycelium AI Core (Cognitive Synthesis)</b><br/>Topological Semantic Graphs (16k+ concepts) • Hierarchical Neural Tries • Spatial Chords Bus • CPG Grammar Engine"]
+    BESZ["<b>🧬 Tier 2: Beszercess DSL (Synaptic Assembly Language)</b><br/>Physical Synaptic Conductivity • Pure Topological Wiring • Event-Triggered Circuit Routing • Local STDP/LTD Mapping"]
+    SVM["<b>⚡ Tier 1: spikeasm_vm Runtime (Bare-Metal SNN Engine)</b><br/>Asynchronous BinaryHeap Priority Scheduler • LIF Biophysics • Massive Metal GPU Compute Shaders • Apple Silicon Zero-Copy"]
+    OBS["<b>🛡️ Tier 0: Obscura Stealth Codec (Cryptographic Perimeter)</b><br/>Zero-Signature High-Entropy Container • Evolving 4-Node SNN NeuroRatchet Stream Cipher • 5D QuantumSpin • Zero-Copy VFS"]
 
-    MYC --> BESZ
-    BESZ --> SVM
-    SVM -. "Compiled Synaptic Bytecode Sealed & Streamed by" .-> OBS
+    MYC ==> BESZ
+    BESZ ==> SVM
+    SVM -. "Compiled Bytecode Sealed & Streamed by" .-> OBS
 ```
 
 ---
@@ -118,13 +110,11 @@ In Mycelium:
 *(Core execution binaries, mathematical weights, and proprietary graph structures are held under confidential research status).*
 
 ```mermaid
-flowchart LR
-    A["Parallel Receptor Bus<br/>(8-bit Spatial Chords)"] --> B["Hierarchical Neural Trie<br/>(Prefix Word Recognition)"]
-    B --> C["Semantic Mycelium<br/>(16k+ Core Concepts)"]
-    C <--> D["Universal Interlingua<br/>(Cross-Lingual Protocol)"]
-    C --> E["Biological Grammar Engine<br/>(CPG Slot Formulator)"]
-    E --> F["Inhibition Network<br/>(Winner-Takes-All / LTD)"]
-    F --> G["Spike Stream Synthesis<br/>(Output Action Potentials)"]
+flowchart TD
+    IN["<b>1. Sensory Input</b><br/>8-bit Parallel Spatial Bus (Zero Delays)"] ==> TRIE["<b>2. Lexical Recognition</b><br/>Hierarchical Spiking Prefix Tree (Neural Trie)"]
+    TRIE ==> GRAPH["<b>3. Semantic Mycelium & Ontology</b><br/>Associative Graph (16k+ Concepts) • Tree of Matter"]
+    GRAPH ==> REASON["<b>4. Cognitive Reflection & Grammar</b><br/>Doubt Detector • CPG Temporal Slots • Chronological Indexing"]
+    REASON ==> OUT["<b>5. Action Potential Synthesis</b><br/>Physical Spike Output Stream (Apple Metal GPU)"]
 ```
 
 ### Prototyping Stages:
