@@ -141,9 +141,14 @@ flowchart LR
   *Execution:* Constructed an autonomous temporal circuit generating sequential firing windows for syntactic grammatical roles.
 * **Stage 6: Ecosystem Convergence — Resolving 3 Foundational Bottlenecks via Beszercess v0.7 & spikeasm_vm**  
   *Direct integration with sibling engines resolved three critical architectural hurdles without ad-hoc code:*
-  1. **Autonomous Rhythmic Cadence via Native Pacemakers:** Instead of simulating artificial pause routines, Mycelium harnesses Beszercess biomorphic pacemakers (`~interval`), providing an autonomous biological heartbeat that drives sentence rhythm natively inside the VM scheduler.
-  2. **Elimination of Hyper-Activation via Modular Lateral Inhibition:** Rather than connecting millions of manual inhibitory synapses, Beszercess AST macro-modules (`module` / `use`) instantiate reusable Winner-Takes-All (WTA) micro-circuits, enabling immediate reciprocal suppression of competitor nodes.
-  3. **Order-of-Magnitude Topology Compression via Vector Range Expansions:** Symbolic bus declarations (`[start..end]`) compress massive multi-channel receptor wiring into dense algebraic definitions expanded natively at $O(1)$ by the compiler.
+  1. **Autonomous Rhythmic Cadence via Native Pacemakers:** Harnesses biomorphic pacemakers (`~interval`), providing an autonomous heartbeat driving sentence rhythm inside the VM scheduler.
+  2. **Elimination of Hyper-Activation via Modular Lateral Inhibition:** Reusable Winner-Takes-All (`module` / `use`) circuits suppress rival candidates.
+  3. **Order-of-Magnitude Topology Compression via Vector Range Expansions:** Arrays (`[start..end]`) compress multi-channel receptor wiring.
+* **Stage 7: Live Hardware Execution & Biological Self-Reflection (Apple Metal GPU Proof-of-Concept)**  
+  *The "Frankenstein Awakening" Benchmark:* Compiled the Tree of Matter and Doubt Detector directly into native `spikeasm_vm` bytecode and executed live spike propagation on Apple Silicon Metal compute shaders:
+  * **Verified Physics:** Incomplete sensory data (`MATTER_ORIGIN_TREE`) leaves competing hypotheses in superposition without false premature triggering.
+  * **Autonomous Doubt & Internal Dialogue:** Denser ambiguity triggers the oscillatory `DOUBT_DETECTOR`, opening internal cognitive gates (`INTERNAL_DIALOGUE_GATE`) and emitting reverse probing queries (`PROBE_QUESTION_SCALE` & `PROBE_QUESTION_SEED`) to resolve ambiguity.
+  * **Zero-Latency Resolution:** An incoming clarifying action potential (`EXTERNAL_INPUT_SMALL`) causes the exact winning hypothesis (`WORD_CHERRY`) to achieve threshold depolarisation and discharge at tick $T:2$. Full hardware verification confirmed on GPU.
 
 ---
 
@@ -154,9 +159,10 @@ flowchart LR
 - [x] **Topological Semantic Knowledge Graph (16k+ concepts)**
 - [x] **Temporal Syntactic Pattern Generator (CPG)**
 - [x] **Ecosystem Convergence: Pacemaker Cadence, Modular Inhibition & Vector Compaction**
+- [x] **Hardware Proof-of-Concept on Apple Metal GPU (Tree of Matter & Doubt Detector)**
 - [ ] **Phase 1: Multi-Lingual Interlingua Bridge** — Mapping Russian, English, and multilingual lexicons onto invariant semantic conceptual nodes.
-- [ ] **Phase 2: Full Hardware Execution on Apple Metal GPU** — Direct compilation of Mycelium's Webster graph into `spikeasm_vm` WGSL compute shaders.
-- [ ] **Phase 3: Working Memory Loops & Conversational Protocol** — Recurrent synaptic feedback loops for temporal context retention.
+- [ ] **Phase 2: Working Memory Loops & Conversational Protocol** — Recurrent synaptic feedback loops for temporal context retention.
+- [ ] **Phase 3: Webster Graph Full Pipeline Integration** — Scaling self-reflection across all 16,000+ lexical nodes.
 
 ---
 
