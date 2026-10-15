@@ -140,15 +140,39 @@ flowchart LR
 * **Stage 5: Biological Grammar (Central Pattern Generator)**  
   *Execution:* Constructed an autonomous temporal circuit generating sequential firing windows for syntactic grammatical roles.
 * **Stage 6: Ecosystem Convergence — Resolving 3 Foundational Bottlenecks via Beszercess v0.7 & spikeasm_vm**  
-  *Direct integration with sibling engines resolved three critical architectural hurdles without ad-hoc code:*
-  1. **Autonomous Rhythmic Cadence via Native Pacemakers:** Harnesses biomorphic pacemakers (`~interval`), providing an autonomous heartbeat driving sentence rhythm inside the VM scheduler.
-  2. **Elimination of Hyper-Activation via Modular Lateral Inhibition:** Reusable Winner-Takes-All (`module` / `use`) circuits suppress rival candidates.
-  3. **Order-of-Magnitude Topology Compression via Vector Range Expansions:** Arrays (`[start..end]`) compress multi-channel receptor wiring.
-* **Stage 7: Live Hardware Execution & Biological Self-Reflection (Apple Metal GPU Proof-of-Concept)**  
-  *The "Frankenstein Awakening" Benchmark:* Compiled the Tree of Matter and Doubt Detector directly into native `spikeasm_vm` bytecode and executed live spike propagation on Apple Silicon Metal compute shaders:
-  * **Verified Physics:** Incomplete sensory data (`MATTER_ORIGIN_TREE`) leaves competing hypotheses in superposition without false premature triggering.
-  * **Autonomous Doubt & Internal Dialogue:** Denser ambiguity triggers the oscillatory `DOUBT_DETECTOR`, opening internal cognitive gates (`INTERNAL_DIALOGUE_GATE`) and emitting reverse probing queries (`PROBE_QUESTION_SCALE` & `PROBE_QUESTION_SEED`) to resolve ambiguity.
-  * **Zero-Latency Resolution:** An incoming clarifying action potential (`EXTERNAL_INPUT_SMALL`) causes the exact winning hypothesis (`WORD_CHERRY`) to achieve threshold depolarisation and discharge at tick $T:2$. Full hardware verification confirmed on GPU.
+  *Direct integration with sibling infrastructure resolved three critical scaling constraints natively:*
+  1. **Autonomous Rhythmic Cadence via Biological Pacemakers:**  
+     *The Problem:* Prior prototypes relied on hardcoded delay cascades originating from an arbitrary trigger (`SPEAK_START`), creating fragile, non-biological synchronization pipelines.  
+     *The Breakthrough:* Leveraged native Beszercess pacemakers (`~interval`). This embeds an autonomous metabolic clock directly inside the `BinaryHeap` scheduler of `spikeasm_vm`, emitting spontaneous periodic action potentials that rhythmically open cognitive speech gates without CPU intervention.
+  2. **Elimination of Hyper-Activation: Topological Index Selection vs. Synaptic Explosion:**  
+     *The Problem:* Preventing concurrent lexical firing (epileptic burst of synonyms) via pairwise reciprocal inhibition requires $N \times (N - 1)$ inhibitory synapses. Scaling to 50,000 vocabulary words would generate 2.5 billion negative connections, saturating GPU memory.  
+     *The Breakthrough:* Abandoned dense pairwise lateral inhibition in favor of **Chronological Identification Indexing**:
+     * In LIF dynamics, higher charge accumulation ($V = 3.0$ vs $2.0$) causes the winning node to reach threshold $V_{th}$ physically earlier in continuous simulation time.
+     * The priority event queue naturally yields the winning candidate first at tick $T$.
+     * An output Analyzer Gate latches the first arrival and immediately blocks subsequent delayed echoes, achieving clean Winner-Takes-All resolution with zero negative synaptic overhead.
+  3. **Order-of-Magnitude Topology Compaction via Vector Ranges:**  
+     *The Breakthrough:* Multi-channel receptor arrays (`BUS[0..7]`) replace redundant line-by-line declarations with unified algebraic vector ranges expanded at compile time into parallel synaptic buses at $O(1)$ complexity.
+
+* **Stage 7: Live Hardware Execution, Tree of Matter Ontology & Cognitive Self-Reflection (Apple Metal GPU Benchmark)**  
+  *The "Frankenstein Awakening" Breakthrough:* Transitioned from flat lexical indices to a high-dimensional ontology of physical reality, followed by live hardware execution on Apple Silicon compute shaders:
+  1. **The Tree of Matter (Multidimensional Difference Signatures):**  
+     *Philosophical Postulate:* Reality consists of physical and ontological invariants (patterns of creation, matter density, scale, and origin). A flat 3-token query ("round, red, fruit") fails to differentiate an apple from a cherry or a tomato.  
+     *Architecture:* Formulated a deep multi-tier feature space where physical properties carry distinct differential weights:
+     * *Scale:* `MATTER_SCALE_SMALL` (Cherry) vs `MATTER_SCALE_MEDIUM` (Apple/Tomato).
+     * *Density & Texture:* `MATTER_DENSITY_CRISP` (Apple) vs `MATTER_DENSITY_SOFT` (Tomato).
+     * *Morphology & Seeds:* `MATTER_SEED_STONE` (single pit for Cherry) vs `MATTER_SEED_CORE` (Apple core) vs `MATTER_ORIGIN_BUSH` (Tomato).
+     * Common traits (color/shape) provide weak sub-threshold priming (weight $0.5$), while unique structural invariants carry decisive synaptic conductance ($1.2 - 1.8$).
+  2. **The Doubt Detector & Cognitive Interference (Superposition Dynamics):**  
+     *Mechanism:* When ambiguous or incomplete sensory inputs prime multiple competing candidates without exceeding the firing threshold ($V_{th} = 3.5$), their combined sub-threshold energy triggers an oscillatory resonance circuit: `DOUBT_DETECTOR`.  
+     *Internal Dialogue Gate:* Activation of the doubt circuit opens an internal cognitive loop (`INTERNAL_DIALOGUE_GATE`), dispatching reverse probe potentials back to the branching nodes of the Tree of Matter. The network identifies exactly *which* dimension is missing (e.g. emitting probing potentials `PROBE_QUESTION_SCALE` and `PROBE_QUESTION_SEED`).  
+     *Controlled Imagination / Hypothesis Testing:* The system does not guess blindly; it stabilizes in cognitive superposition until an internal memory pattern or external sensory pulse resolves the ambiguity.
+  3. **Hardware Execution & Verification on Apple Metal GPU:**  
+     *The Execution Pipeline:* Compiled `tree_of_matter.besz` into native bytecode and executed live on Apple Silicon Metal compute shaders via `spikeasm_vm`:
+     * **Phase A ($T:0$):** Injected ambiguous sensory pulse (`MATTER_ORIGIN_TREE`). Apple Metal GPU processed membrane updates; candidates primed but threshold remained unbroken.
+     * **Phase B ($T:1 \to T:2$):** Injected single clarifying differentiator (`EXTERNAL_INPUT_SMALL` — "small"). 
+     * **Physical Discharge ($T:2$):** At precisely $T:2$, `WORD_CHERRY` integrated sufficient synaptic potential, breached $V_{th}$, and fired on GPU. Competing candidates (`WORD_APPLE`, `WORD_TOMATO`) remained silent.
+     * **Self-Reflection Cascade ($T:2 \to T:4$):** Simultaneously, the doubt interference circuit fired, opening `INTERNAL_DIALOGUE_GATE` at $T:3$ and generating targeted cognitive probing pulses (`PROBE_QUESTION_SCALE`, `PROBE_QUESTION_SEED`) at $T:4$.
+     * **Verdict:** Complete physical validation of event-driven biological self-reflection running directly on GPU shaders without floating-point neural network matrices.
 
 ---
 
