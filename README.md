@@ -188,7 +188,7 @@ flowchart TD
      * **Self-Reflection Cascade ($T:2 \to T:4$):** Simultaneously, the doubt interference circuit fired, opening `INTERNAL_DIALOGUE_GATE` at $T:3$ and generating targeted cognitive probing pulses (`PROBE_QUESTION_SCALE`, `PROBE_QUESTION_SEED`) at $T:4$.
      * **Verdict:** Complete physical validation of event-driven biological self-reflection running directly on GPU shaders without floating-point neural network matrices.
 
-* **Stage 8: Crystalline Episodic Vault (CEV) & Live Crash-Resilient Memory Architecture**  
+* **Stage 8: Crystalline Episodic Vault (CEV) & Live Crash-Resilient Memory Architecture (Working Prototype)**  
   *The Memory Paradigm Shift:* Classical LLMs rely on bloated vector databases (RAG) and dense context windows ($O(N^2)$ attention matrices) that suffer from catastrophic forgetting and severe security vulnerabilities. Mycelium introduces the **Crystalline Episodic Vault (CEV)** — a biomorphic, homomorphic, zero-decompression memory architecture:
   1. **Topic Closure Trigger & On-the-Fly Crystallization:**  
      Memory consolidation is decoupled from arbitrary astronomical clocks. Instead, it triggers dynamically whenever a semantic discourse achieves topical resolution (`TOPIC_CLOSED`). An autonomous consolidation engine strips conversational entropy, extracts core invariants, and solidifies the dialogue into a modular geometric facet.
@@ -202,6 +202,22 @@ flowchart TD
   4. **Synaptic WAL & Hot In-Memory Continuity:**  
      To eliminate data loss from unexpected power failures or system crashes, a high-throughput **Synaptic Write-Ahead Log (`live_journal.wal`)** flushes every spike, doubt activation, and lexical token atomically to disk on the fly. Simultaneously, closed topics remain cached in a **Hot In-Memory Tier** on Apple Silicon unified memory, providing instant sub-millisecond associative recall during active conversation.
 
+* **Stage 9: Subconscious Overseer & Autonomic Immune System (Architectural Formulation)**  
+  *Preventing Cognitive Chaos in Infinite Modular Scaling:* As Mycelium expands across thousands of concepts, memories, and sensory inputs, higher-order cortical cognition requires an autonomic substrate to prevent cognitive meltdown (epileptic spike cascades, parasitic loops, and semantic corruption).
+  1. **The Inviolable Axiomatic Code (Anti-Self-Destruction Laws):**  
+     A hardwired, immutable set of ontological invariants encoded into the Subconscious that can never be overwritten by learning, dialogue, or external feedback. These enforce temporal causality, biophysical consistency, and network survival invariants.
+  2. **Dedicated Control Highway (Out-of-Band Modulatory Bus):**  
+     In addition to associative inter-module synaptic connections, a dedicated supervisory bus traverses every module. This allows the Subconscious to monitor membrane potential flux, ping module health, and enforce global homeostasis via distributed GABAergic inhibitory clamping.
+  3. **The Shadow Tutor (Continuous Optimization & Error Detection):**  
+     Operating silently in background cycles, the Subconscious acts as an internal tutor. It evaluates active synaptic plasticity, prunes dead-end doubt branches, consolidates inter-day memory bridges, and optimizes energy efficiency without interrupting foreground conversation.
+  4. **The Autonomic Immune Organs & Quarantine Sandbox:**  
+     Immunity is decoupled from the cognitive Subconscious into specialized autonomic organs. Newly ingested modules (new vocabularies, plugins, or external tools) are never linked directly to the core. They are routed into a strict **Quarantine Sandbox** where the immune system fires diagnostic stimulus probes. Only when verified free of parasitic loops and energetic anomalies does the Subconscious authorize synaptic annexation into the active Mycelium graph.
+
+---
+
+> [!NOTE]  
+> **Development Status: Evolutionary Prototyping:** All stages currently implemented (from alphabet bus and knowledge graph to the Doubt Detector and Crystalline Memory) represent rigorous, working proof-of-concept prototypes executed on Apple Metal GPU bare-metal runtimes. Production integration scales incrementally with each verified milestone.
+
 ---
 
 ## 🗺️ Engineering Roadmap
@@ -212,10 +228,12 @@ flowchart TD
 - [x] **Temporal Syntactic Pattern Generator (CPG)**
 - [x] **Ecosystem Convergence: Pacemaker Cadence, Modular Inhibition & Vector Compaction**
 - [x] **Hardware Proof-of-Concept on Apple Metal GPU (Tree of Matter & Doubt Detector)**
-- [x] **Crystalline Episodic Vault (CEV) & Crash-Resilient Memory Architecture**
+- [x] **Crystalline Episodic Vault (CEV) & Live Crash-Resilient Memory Prototype**
+- [x] **Subconscious Overseer & Autonomic Immune System Architecture**
 - [ ] **Phase 1: Multi-Lingual Interlingua Bridge** — Mapping Russian, English, and multilingual lexicons onto invariant semantic conceptual nodes.
 - [ ] **Phase 2: Working Memory Loops & Conversational Protocol** — Recurrent synaptic feedback loops for temporal context retention.
-- [ ] **Phase 3: Webster Graph Full Pipeline Integration** — Scaling self-reflection across all 16,000+ lexical nodes.
+- [ ] **Phase 3: Subconscious Control Highway & Immune Sandbox Prototyping** — Hardware validation of out-of-band monitoring and module quarantine.
+- [ ] **Phase 4: Webster Graph Full Pipeline Integration** — Scaling self-reflection across all 16,000+ lexical nodes.
 
 ---
 
