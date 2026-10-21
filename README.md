@@ -188,6 +188,20 @@ flowchart TD
      * **Self-Reflection Cascade ($T:2 \to T:4$):** Simultaneously, the doubt interference circuit fired, opening `INTERNAL_DIALOGUE_GATE` at $T:3$ and generating targeted cognitive probing pulses (`PROBE_QUESTION_SCALE`, `PROBE_QUESTION_SEED`) at $T:4$.
      * **Verdict:** Complete physical validation of event-driven biological self-reflection running directly on GPU shaders without floating-point neural network matrices.
 
+* **Stage 8: Crystalline Episodic Vault (CEV) & Live Crash-Resilient Memory Architecture**  
+  *The Memory Paradigm Shift:* Classical LLMs rely on bloated vector databases (RAG) and dense context windows ($O(N^2)$ attention matrices) that suffer from catastrophic forgetting and severe security vulnerabilities. Mycelium introduces the **Crystalline Episodic Vault (CEV)** — a biomorphic, homomorphic, zero-decompression memory architecture:
+  1. **Topic Closure Trigger & On-the-Fly Crystallization:**  
+     Memory consolidation is decoupled from arbitrary astronomical clocks. Instead, it triggers dynamically whenever a semantic discourse achieves topical resolution (`TOPIC_CLOSED`). An autonomous consolidation engine strips conversational entropy, extracts core invariants, and solidifies the dialogue into a modular geometric facet.
+  2. **The Causal Index Triad (`PRE` $\to$ `CORE` $\to$ `POST`):**  
+     Facts are meaningless in temporal isolation. Every thematic facet within the day's crystal is indexed by an energetic causal arc:
+     * `PRE` (Antecedent Context): Why the discussion emerged (unresolved hypotheses, doubt impulses).
+     * `CORE` (Semantic Nucleus): The verified discovery or axiom with peak synaptic conductance ($W \ge 1.5$).
+     * `POST` (Consequent Trajectory): The resulting deduction, synthesis, or transition to the next theme.
+  3. **Zero-Decompression Querying (Homomorphic Spiking Retrieval):**  
+     The full dialogue transcripts, logs, and raw embeddings are sealed cryptographically within an [`Obscura Stealth Codec`](https://github.com/sangaafilum/Obscura) container with zero-signature noise. Crucially, the exterior facets are exposed directly to the `spikeasm_vm` priority scheduler as open `Beszercess` topological meshes. Emitting a probe spike against a concept or date resonates solely with the corresponding facet, discharging *only the requested truth* without decompressing or decrypting the entire archive into RAM.
+  4. **Synaptic WAL & Hot In-Memory Continuity:**  
+     To eliminate data loss from unexpected power failures or system crashes, a high-throughput **Synaptic Write-Ahead Log (`live_journal.wal`)** flushes every spike, doubt activation, and lexical token atomically to disk on the fly. Simultaneously, closed topics remain cached in a **Hot In-Memory Tier** on Apple Silicon unified memory, providing instant sub-millisecond associative recall during active conversation.
+
 ---
 
 ## 🗺️ Engineering Roadmap
@@ -198,6 +212,7 @@ flowchart TD
 - [x] **Temporal Syntactic Pattern Generator (CPG)**
 - [x] **Ecosystem Convergence: Pacemaker Cadence, Modular Inhibition & Vector Compaction**
 - [x] **Hardware Proof-of-Concept on Apple Metal GPU (Tree of Matter & Doubt Detector)**
+- [x] **Crystalline Episodic Vault (CEV) & Crash-Resilient Memory Architecture**
 - [ ] **Phase 1: Multi-Lingual Interlingua Bridge** — Mapping Russian, English, and multilingual lexicons onto invariant semantic conceptual nodes.
 - [ ] **Phase 2: Working Memory Loops & Conversational Protocol** — Recurrent synaptic feedback loops for temporal context retention.
 - [ ] **Phase 3: Webster Graph Full Pipeline Integration** — Scaling self-reflection across all 16,000+ lexical nodes.
