@@ -1,0 +1,1372 @@
+// ===========================================================================
+// 🍄 MYCELIUM SNN - MILESTONE 1 PILOT: 100 GROUNDED PHYSICAL CONCEPTS
+// High-precision associative attractor network on Apple Metal GPU
+// ===========================================================================
+
+// --- 1. SENSORY INPUT BUS (DOM-12 COORDINATE DETECTORS) ---
+IN_C10_sensory_Acoustic:0.5:0.05
+IN_C10_sensory_Chemosensory:0.5:0.05
+IN_C10_sensory_Imperceptible:0.5:0.05
+IN_C10_sensory_Tactile:0.5:0.05
+IN_C10_sensory_Visual:0.5:0.05
+IN_C11_valuation_Constructive:0.5:0.05
+IN_C11_valuation_Destructive:0.5:0.05
+IN_C11_valuation_Neutral:0.5:0.05
+IN_C12_trajectory_Degradation:0.5:0.05
+IN_C12_trajectory_Emergence:0.5:0.05
+IN_C12_trajectory_Equilibrium:0.5:0.05
+IN_C1_state_Field:0.5:0.05
+IN_C1_state_Gas:0.5:0.05
+IN_C1_state_Liquid:0.5:0.05
+IN_C1_state_Pattern:0.5:0.05
+IN_C1_state_Plasma:0.5:0.05
+IN_C1_state_Solid:0.5:0.05
+IN_C2_genesis_Abiogenic:0.5:0.05
+IN_C2_genesis_Anthropogenic:0.5:0.05
+IN_C2_genesis_Biogenic:0.5:0.05
+IN_C2_genesis_Cosmogenic:0.5:0.05
+IN_C2_genesis_Virtual:0.5:0.05
+IN_C3_scale_Anthropometric:0.5:0.05
+IN_C3_scale_Astronomical:0.5:0.05
+IN_C3_scale_Geographic:0.5:0.05
+IN_C3_scale_Micro:0.5:0.05
+IN_C3_scale_Subatomic:0.5:0.05
+IN_C4_texture_Brittle:0.5:0.05
+IN_C4_texture_Elastic:0.5:0.05
+IN_C4_texture_Fibrous:0.5:0.05
+IN_C4_texture_Intangible:0.5:0.05
+IN_C4_texture_Plastic:0.5:0.05
+IN_C4_texture_Rigid:0.5:0.05
+IN_C4_texture_Viscous:0.5:0.05
+IN_C5_topology_Amorphous:0.5:0.05
+IN_C5_topology_Fractal:0.5:0.05
+IN_C5_topology_Linear:0.5:0.05
+IN_C5_topology_Network:0.5:0.05
+IN_C5_topology_Planar:0.5:0.05
+IN_C5_topology_Symmetric:0.5:0.05
+IN_C6_teleology_Destructor:0.5:0.05
+IN_C6_teleology_Informer:0.5:0.05
+IN_C6_teleology_Regulator:0.5:0.05
+IN_C6_teleology_Resource:0.5:0.05
+IN_C6_teleology_Shelter:0.5:0.05
+IN_C6_teleology_Tool:0.5:0.05
+IN_C7_energy_ActiveThermal:0.5:0.05
+IN_C7_energy_Inert:0.5:0.05
+IN_C7_energy_Kinetic:0.5:0.05
+IN_C7_energy_PassiveThermal:0.5:0.05
+IN_C7_energy_Potential:0.5:0.05
+IN_C8_chronotope_Cyclic:0.5:0.05
+IN_C8_chronotope_Ephemeral:0.5:0.05
+IN_C8_chronotope_Permanent:0.5:0.05
+IN_C8_chronotope_Process:0.5:0.05
+IN_C9_complexity_Composite:0.5:0.05
+IN_C9_complexity_Elementary:0.5:0.05
+IN_C9_complexity_Homogeneous:0.5:0.05
+IN_C9_complexity_Systemic:0.5:0.05
+
+// --- 2. CONCEPT ATTRACTOR NODES (100 ANCHORS) ---
+// Threshold: 8.0 (requires >= 8 coordinates alignment), Leakage: 0.02
+CONCEPT_APPLE:8.0:0.02
+CONCEPT_OAK:8.0:0.02
+CONCEPT_WOLF:8.0:0.02
+CONCEPT_MUSHROOM:8.0:0.02
+CONCEPT_WHEAT:8.0:0.02
+CONCEPT_HONEYBEE:8.0:0.02
+CONCEPT_SALMON:8.0:0.02
+CONCEPT_ROSE:8.0:0.02
+CONCEPT_WHALE:8.0:0.02
+CONCEPT_BACTERIA:8.0:0.02
+CONCEPT_PINE:8.0:0.02
+CONCEPT_SPIDER:8.0:0.02
+CONCEPT_EAGLE:8.0:0.02
+CONCEPT_CARROT:8.0:0.02
+CONCEPT_POTATO:8.0:0.02
+CONCEPT_YEAST:8.0:0.02
+CONCEPT_GRASS:8.0:0.02
+CONCEPT_HORSE:8.0:0.02
+CONCEPT_SHARK:8.0:0.02
+CONCEPT_TOMATO:8.0:0.02
+CONCEPT_ORANGE:8.0:0.02
+CONCEPT_BAMBOO:8.0:0.02
+CONCEPT_ANT:8.0:0.02
+CONCEPT_ELEPHANT:8.0:0.02
+CONCEPT_CORAL:8.0:0.02
+CONCEPT_HAMMER:8.0:0.02
+CONCEPT_KNIFE:8.0:0.02
+CONCEPT_LEVER:8.0:0.02
+CONCEPT_WHEEL:8.0:0.02
+CONCEPT_ANVIL:8.0:0.02
+CONCEPT_TELESCOPE:8.0:0.02
+CONCEPT_MICROSCOPE:8.0:0.02
+CONCEPT_ENGINE:8.0:0.02
+CONCEPT_BATTERY:8.0:0.02
+CONCEPT_TRANSISTOR:8.0:0.02
+CONCEPT_COMPASS:8.0:0.02
+CONCEPT_CLOCK:8.0:0.02
+CONCEPT_LASER:8.0:0.02
+CONCEPT_TURBINE:8.0:0.02
+CONCEPT_COMPUTER:8.0:0.02
+CONCEPT_RESISTOR:8.0:0.02
+CONCEPT_CAPACITOR:8.0:0.02
+CONCEPT_ANTENNA:8.0:0.02
+CONCEPT_PUMP:8.0:0.02
+CONCEPT_GEAR:8.0:0.02
+CONCEPT_SCREWDRIVER:8.0:0.02
+CONCEPT_MIRROR:8.0:0.02
+CONCEPT_LENS:8.0:0.02
+CONCEPT_TRANSFORMER:8.0:0.02
+CONCEPT_DYNAMO:8.0:0.02
+CONCEPT_LIGHTNING:8.0:0.02
+CONCEPT_THUNDER:8.0:0.02
+CONCEPT_RAIN:8.0:0.02
+CONCEPT_FIRE:8.0:0.02
+CONCEPT_EARTHQUAKE:8.0:0.02
+CONCEPT_TORNADO:8.0:0.02
+CONCEPT_GLACIER:8.0:0.02
+CONCEPT_AURORA:8.0:0.02
+CONCEPT_RAINBOW:8.0:0.02
+CONCEPT_TSUNAMI:8.0:0.02
+CONCEPT_VOLCANO:8.0:0.02
+CONCEPT_FOG:8.0:0.02
+CONCEPT_WIND:8.0:0.02
+CONCEPT_COMBUSTION:8.0:0.02
+CONCEPT_EVAPORATION:8.0:0.02
+CONCEPT_CONDENSATION:8.0:0.02
+CONCEPT_GEYSER:8.0:0.02
+CONCEPT_ECLIPSE:8.0:0.02
+CONCEPT_AVALANCHE:8.0:0.02
+CONCEPT_RUST:8.0:0.02
+CONCEPT_DECAY:8.0:0.02
+CONCEPT_FREEZING:8.0:0.02
+CONCEPT_BOILING:8.0:0.02
+CONCEPT_MAGNETISM:8.0:0.02
+CONCEPT_GRAVITATION:8.0:0.02
+CONCEPT_WATER:8.0:0.02
+CONCEPT_IRON:8.0:0.02
+CONCEPT_GOLD:8.0:0.02
+CONCEPT_DIAMOND:8.0:0.02
+CONCEPT_OXYGEN:8.0:0.02
+CONCEPT_HYDROGEN:8.0:0.02
+CONCEPT_CARBON:8.0:0.02
+CONCEPT_QUARTZ:8.0:0.02
+CONCEPT_GRANITE:8.0:0.02
+CONCEPT_BASALT:8.0:0.02
+CONCEPT_COPPER:8.0:0.02
+CONCEPT_SILVER:8.0:0.02
+CONCEPT_SILICON:8.0:0.02
+CONCEPT_SALT:8.0:0.02
+CONCEPT_SULFUR:8.0:0.02
+CONCEPT_NITROGEN:8.0:0.02
+CONCEPT_HELIUM:8.0:0.02
+CONCEPT_LEAD:8.0:0.02
+CONCEPT_MERCURY:8.0:0.02
+CONCEPT_PETROLEUM:8.0:0.02
+CONCEPT_METHANE:8.0:0.02
+CONCEPT_OZONE:8.0:0.02
+CONCEPT_GRAPHITE:8.0:0.02
+CONCEPT_AMMONIA:8.0:0.02
+CONCEPT_CALCIUM:8.0:0.02
+
+// --- 3. SYNAPTIC PROJECTIONS (DOM-12 COORDINATES -> CONCEPTS) ---
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_APPLE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_APPLE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_APPLE
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_APPLE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_APPLE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_APPLE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_APPLE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_APPLE
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_APPLE
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_APPLE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_APPLE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_APPLE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_OAK
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_OAK
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_OAK
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_OAK
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_OAK
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_OAK
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_OAK
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_OAK
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_OAK
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_OAK
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_OAK
+IN_C12_trajectory_Equilibrium >>[1:1.0]>> CONCEPT_OAK
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_WOLF
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_WOLF
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_WOLF
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_WOLF
+IN_C5_topology_Network >>[1:1.0]>> CONCEPT_WOLF
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_WOLF
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_WOLF
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_WOLF
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_WOLF
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_WOLF
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_WOLF
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_WOLF
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_MUSHROOM
+IN_C1_state_Plasma >>[1:1.0]>> CONCEPT_WHEAT
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_WHEAT
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_WHEAT
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_WHEAT
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_WHEAT
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_WHEAT
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_WHEAT
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_WHEAT
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_WHEAT
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_WHEAT
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_WHEAT
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_WHEAT
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_HONEYBEE
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_SALMON
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_SALMON
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_SALMON
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_SALMON
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_SALMON
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_SALMON
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_SALMON
+IN_C8_chronotope_Cyclic >>[1:1.0]>> CONCEPT_SALMON
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_SALMON
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_SALMON
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_SALMON
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SALMON
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_ROSE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_ROSE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_ROSE
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_ROSE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ROSE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ROSE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_ROSE
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_ROSE
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_ROSE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_ROSE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ROSE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ROSE
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_WHALE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_WHALE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_WHALE
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_WHALE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_WHALE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_WHALE
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_WHALE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_WHALE
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_WHALE
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_WHALE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_WHALE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_WHALE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_BACTERIA
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_PINE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_PINE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_PINE
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_PINE
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_PINE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_PINE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_PINE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_PINE
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_PINE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_PINE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_PINE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_PINE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SPIDER
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_SPIDER
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_SPIDER
+IN_C4_texture_Elastic >>[1:1.0]>> CONCEPT_SPIDER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_SPIDER
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_SPIDER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_SPIDER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_SPIDER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_SPIDER
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_SPIDER
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_SPIDER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SPIDER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_EAGLE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_EAGLE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_EAGLE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_EAGLE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_EAGLE
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_EAGLE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_EAGLE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_EAGLE
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_EAGLE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_EAGLE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_EAGLE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_EAGLE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_CARROT
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_CARROT
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_CARROT
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_CARROT
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_CARROT
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_CARROT
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_CARROT
+IN_C8_chronotope_Cyclic >>[1:1.0]>> CONCEPT_CARROT
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_CARROT
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_CARROT
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_CARROT
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_CARROT
+IN_C1_state_Plasma >>[1:1.0]>> CONCEPT_POTATO
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_POTATO
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_POTATO
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_POTATO
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_POTATO
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_POTATO
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_POTATO
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_POTATO
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_POTATO
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_POTATO
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_POTATO
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_POTATO
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_YEAST
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_YEAST
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_YEAST
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_YEAST
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_YEAST
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_YEAST
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_YEAST
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_YEAST
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_YEAST
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_YEAST
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_YEAST
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_YEAST
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GRASS
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_GRASS
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_GRASS
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_GRASS
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GRASS
+IN_C6_teleology_Regulator >>[1:1.0]>> CONCEPT_GRASS
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_GRASS
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GRASS
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_GRASS
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_GRASS
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_GRASS
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GRASS
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_HORSE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_HORSE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_HORSE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_HORSE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_HORSE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_HORSE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_HORSE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_HORSE
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_HORSE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_HORSE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_HORSE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_HORSE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SHARK
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_SHARK
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_SHARK
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_SHARK
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_SHARK
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_SHARK
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_SHARK
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_SHARK
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_SHARK
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_SHARK
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_SHARK
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SHARK
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_TOMATO
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_TOMATO
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_TOMATO
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_TOMATO
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_TOMATO
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_TOMATO
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_TOMATO
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_TOMATO
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_TOMATO
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_TOMATO
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_TOMATO
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_TOMATO
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_ORANGE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_ORANGE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_ORANGE
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_ORANGE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ORANGE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ORANGE
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_ORANGE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_ORANGE
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_ORANGE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_ORANGE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ORANGE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ORANGE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C4_texture_Fibrous >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_BAMBOO
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_ANT
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_ANT
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_ANT
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_ANT
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ANT
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ANT
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_ANT
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_ANT
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_ANT
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_ANT
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ANT
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ANT
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ELEPHANT
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_CORAL
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_CORAL
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_CORAL
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_CORAL
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_CORAL
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_CORAL
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_CORAL
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_CORAL
+IN_C9_complexity_Systemic >>[1:1.0]>> CONCEPT_CORAL
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_CORAL
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_CORAL
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_CORAL
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_HAMMER
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_HAMMER
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_HAMMER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_HAMMER
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_HAMMER
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_HAMMER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_HAMMER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_HAMMER
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_HAMMER
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_HAMMER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_HAMMER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_HAMMER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_KNIFE
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_KNIFE
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_KNIFE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_KNIFE
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_KNIFE
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_KNIFE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_KNIFE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_KNIFE
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_KNIFE
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_KNIFE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_KNIFE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_KNIFE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_LEVER
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_LEVER
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_LEVER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_LEVER
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_LEVER
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_LEVER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_LEVER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_LEVER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_LEVER
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_LEVER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_LEVER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_LEVER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_WHEEL
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_WHEEL
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_WHEEL
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_WHEEL
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_WHEEL
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_WHEEL
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_WHEEL
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_WHEEL
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_WHEEL
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_WHEEL
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_WHEEL
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_WHEEL
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_ANVIL
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_ANVIL
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_ANVIL
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_ANVIL
+IN_C5_topology_Planar >>[1:1.0]>> CONCEPT_ANVIL
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ANVIL
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_ANVIL
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_ANVIL
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_ANVIL
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_ANVIL
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ANVIL
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ANVIL
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C2_genesis_Cosmogenic >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C3_scale_Astronomical >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_TELESCOPE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C6_teleology_Informer >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_MICROSCOPE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_ENGINE
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_ENGINE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_ENGINE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_ENGINE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ENGINE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ENGINE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_ENGINE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_ENGINE
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_ENGINE
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_ENGINE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ENGINE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ENGINE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_BATTERY
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_BATTERY
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_BATTERY
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_BATTERY
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_BATTERY
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_BATTERY
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_BATTERY
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_BATTERY
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_BATTERY
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_BATTERY
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_BATTERY
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_BATTERY
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_TRANSISTOR
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_COMPASS
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_COMPASS
+IN_C3_scale_Astronomical >>[1:1.0]>> CONCEPT_COMPASS
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_COMPASS
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_COMPASS
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_COMPASS
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_COMPASS
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_COMPASS
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_COMPASS
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_COMPASS
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_COMPASS
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_COMPASS
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_CLOCK
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_CLOCK
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_CLOCK
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_CLOCK
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_CLOCK
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_CLOCK
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_CLOCK
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_CLOCK
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_CLOCK
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_CLOCK
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_CLOCK
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_CLOCK
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_LASER
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_LASER
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_LASER
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_LASER
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_LASER
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_LASER
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_LASER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_LASER
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_LASER
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_LASER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_LASER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_LASER
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_TURBINE
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_TURBINE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_TURBINE
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_TURBINE
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_TURBINE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_TURBINE
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_TURBINE
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_TURBINE
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_TURBINE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_TURBINE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_TURBINE
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_TURBINE
+IN_C1_state_Pattern >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C2_genesis_Virtual >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_COMPUTER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C5_topology_Network >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C6_teleology_Regulator >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_RESISTOR
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_CAPACITOR
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C8_chronotope_Cyclic >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ANTENNA
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_PUMP
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_PUMP
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_PUMP
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_PUMP
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_PUMP
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_PUMP
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_PUMP
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_PUMP
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_PUMP
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_PUMP
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_PUMP
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_PUMP
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GEAR
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_GEAR
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_GEAR
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_GEAR
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GEAR
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_GEAR
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_GEAR
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GEAR
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GEAR
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_GEAR
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_GEAR
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_GEAR
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SCREWDRIVER
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_MIRROR
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_MIRROR
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_MIRROR
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_MIRROR
+IN_C5_topology_Planar >>[1:1.0]>> CONCEPT_MIRROR
+IN_C6_teleology_Informer >>[1:1.0]>> CONCEPT_MIRROR
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_MIRROR
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_MIRROR
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_MIRROR
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_MIRROR
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_MIRROR
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_MIRROR
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_LENS
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_LENS
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_LENS
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_LENS
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_LENS
+IN_C6_teleology_Informer >>[1:1.0]>> CONCEPT_LENS
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_LENS
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_LENS
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_LENS
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_LENS
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_LENS
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_LENS
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C2_genesis_Anthropogenic >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C8_chronotope_Cyclic >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C9_complexity_Composite >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_TRANSFORMER
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C6_teleology_Tool >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_DYNAMO
+IN_C1_state_Plasma >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C8_chronotope_Ephemeral >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C10_sensory_Acoustic >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_LIGHTNING
+IN_C1_state_Plasma >>[1:1.0]>> CONCEPT_THUNDER
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_THUNDER
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_THUNDER
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_THUNDER
+IN_C5_topology_Fractal >>[1:1.0]>> CONCEPT_THUNDER
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_THUNDER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_THUNDER
+IN_C8_chronotope_Ephemeral >>[1:1.0]>> CONCEPT_THUNDER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_THUNDER
+IN_C10_sensory_Acoustic >>[1:1.0]>> CONCEPT_THUNDER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_THUNDER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_THUNDER
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_RAIN
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_RAIN
+IN_C3_scale_Astronomical >>[1:1.0]>> CONCEPT_RAIN
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_RAIN
+IN_C5_topology_Planar >>[1:1.0]>> CONCEPT_RAIN
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_RAIN
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_RAIN
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_RAIN
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_RAIN
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_RAIN
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_RAIN
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_RAIN
+IN_C1_state_Plasma >>[1:1.0]>> CONCEPT_FIRE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_FIRE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_FIRE
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_FIRE
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_FIRE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_FIRE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_FIRE
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_FIRE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_FIRE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_FIRE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_FIRE
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_FIRE
+IN_C1_state_Pattern >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_EARTHQUAKE
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_TORNADO
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_TORNADO
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_TORNADO
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_TORNADO
+IN_C5_topology_Planar >>[1:1.0]>> CONCEPT_TORNADO
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_TORNADO
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_TORNADO
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_TORNADO
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_TORNADO
+IN_C10_sensory_Acoustic >>[1:1.0]>> CONCEPT_TORNADO
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_TORNADO
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_TORNADO
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GLACIER
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_GLACIER
+IN_C3_scale_Anthropometric >>[1:1.0]>> CONCEPT_GLACIER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_GLACIER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GLACIER
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_GLACIER
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_GLACIER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GLACIER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GLACIER
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_GLACIER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_GLACIER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GLACIER
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_AURORA
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_AURORA
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_AURORA
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_AURORA
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_AURORA
+IN_C6_teleology_Informer >>[1:1.0]>> CONCEPT_AURORA
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_AURORA
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_AURORA
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_AURORA
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_AURORA
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_AURORA
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_AURORA
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C6_teleology_Informer >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_RAINBOW
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C8_chronotope_Cyclic >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_TSUNAMI
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_VOLCANO
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_FOG
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_FOG
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_FOG
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_FOG
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_FOG
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_FOG
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_FOG
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_FOG
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_FOG
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_FOG
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_FOG
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_FOG
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_WIND
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_WIND
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_WIND
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_WIND
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_WIND
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_WIND
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_WIND
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_WIND
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_WIND
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_WIND
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_WIND
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_WIND
+IN_C1_state_Plasma >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_COMBUSTION
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_EVAPORATION
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_CONDENSATION
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_GEYSER
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_GEYSER
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_GEYSER
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_GEYSER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GEYSER
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_GEYSER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_GEYSER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GEYSER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GEYSER
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_GEYSER
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_GEYSER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GEYSER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C2_genesis_Cosmogenic >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C3_scale_Astronomical >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_ECLIPSE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_AVALANCHE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_RUST
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_RUST
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_RUST
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_RUST
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_RUST
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_RUST
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_RUST
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_RUST
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_RUST
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_RUST
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_RUST
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_RUST
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_DECAY
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_DECAY
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_DECAY
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_DECAY
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_DECAY
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_DECAY
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_DECAY
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_DECAY
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_DECAY
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_DECAY
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_DECAY
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_DECAY
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_FREEZING
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_FREEZING
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_FREEZING
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_FREEZING
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_FREEZING
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_FREEZING
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_FREEZING
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_FREEZING
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_FREEZING
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_FREEZING
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_FREEZING
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_FREEZING
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_BOILING
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_BOILING
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_BOILING
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_BOILING
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_BOILING
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_BOILING
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_BOILING
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_BOILING
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_BOILING
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_BOILING
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_BOILING
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_BOILING
+IN_C1_state_Field >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_MAGNETISM
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C2_genesis_Cosmogenic >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C3_scale_Astronomical >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GRAVITATION
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_WATER
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_WATER
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_WATER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_WATER
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_WATER
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_WATER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_WATER
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_WATER
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_WATER
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_WATER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_WATER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_WATER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_IRON
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_IRON
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_IRON
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_IRON
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_IRON
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_IRON
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_IRON
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_IRON
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_IRON
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_IRON
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_IRON
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_IRON
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GOLD
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_GOLD
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_GOLD
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_GOLD
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GOLD
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_GOLD
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_GOLD
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GOLD
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GOLD
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_GOLD
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_GOLD
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GOLD
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C7_energy_PassiveThermal >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C12_trajectory_Equilibrium >>[1:1.0]>> CONCEPT_DIAMOND
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_OXYGEN
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_HYDROGEN
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_CARBON
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_CARBON
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_CARBON
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_CARBON
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_CARBON
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_CARBON
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_CARBON
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_CARBON
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_CARBON
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_CARBON
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_CARBON
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_CARBON
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_QUARTZ
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GRANITE
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_GRANITE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_GRANITE
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_GRANITE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_GRANITE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_GRANITE
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_GRANITE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GRANITE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GRANITE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_GRANITE
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_GRANITE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GRANITE
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_BASALT
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_BASALT
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_BASALT
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_BASALT
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_BASALT
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_BASALT
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_BASALT
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_BASALT
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_BASALT
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_BASALT
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_BASALT
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_BASALT
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_COPPER
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_COPPER
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_COPPER
+IN_C4_texture_Plastic >>[1:1.0]>> CONCEPT_COPPER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_COPPER
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_COPPER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_COPPER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_COPPER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_COPPER
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_COPPER
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_COPPER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_COPPER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SILVER
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_SILVER
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_SILVER
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_SILVER
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_SILVER
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_SILVER
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_SILVER
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_SILVER
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_SILVER
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_SILVER
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_SILVER
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SILVER
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SILICON
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_SILICON
+IN_C3_scale_Micro >>[1:1.0]>> CONCEPT_SILICON
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_SILICON
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_SILICON
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_SILICON
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_SILICON
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_SILICON
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_SILICON
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_SILICON
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_SILICON
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SILICON
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SALT
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_SALT
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_SALT
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_SALT
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_SALT
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_SALT
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_SALT
+IN_C8_chronotope_Process >>[1:1.0]>> CONCEPT_SALT
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_SALT
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_SALT
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_SALT
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SALT
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_SULFUR
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_SULFUR
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_SULFUR
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_SULFUR
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_SULFUR
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_SULFUR
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_SULFUR
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_SULFUR
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_SULFUR
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_SULFUR
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_SULFUR
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_SULFUR
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C6_teleology_Shelter >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_NITROGEN
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_HELIUM
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_HELIUM
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_HELIUM
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_HELIUM
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_HELIUM
+IN_C6_teleology_Destructor >>[1:1.0]>> CONCEPT_HELIUM
+IN_C7_energy_Inert >>[1:1.0]>> CONCEPT_HELIUM
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_HELIUM
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_HELIUM
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_HELIUM
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_HELIUM
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_HELIUM
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_LEAD
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_LEAD
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_LEAD
+IN_C4_texture_Plastic >>[1:1.0]>> CONCEPT_LEAD
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_LEAD
+IN_C6_teleology_Shelter >>[1:1.0]>> CONCEPT_LEAD
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_LEAD
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_LEAD
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_LEAD
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_LEAD
+IN_C11_valuation_Destructive >>[1:1.0]>> CONCEPT_LEAD
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_LEAD
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_MERCURY
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_MERCURY
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_MERCURY
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_MERCURY
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_MERCURY
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_MERCURY
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_MERCURY
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_MERCURY
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_MERCURY
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_MERCURY
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_MERCURY
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_MERCURY
+IN_C1_state_Liquid >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C4_texture_Viscous >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C11_valuation_Neutral >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_PETROLEUM
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_METHANE
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_METHANE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_METHANE
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_METHANE
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_METHANE
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_METHANE
+IN_C7_energy_Potential >>[1:1.0]>> CONCEPT_METHANE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_METHANE
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_METHANE
+IN_C10_sensory_Imperceptible >>[1:1.0]>> CONCEPT_METHANE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_METHANE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_METHANE
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_OZONE
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_OZONE
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_OZONE
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_OZONE
+IN_C5_topology_Symmetric >>[1:1.0]>> CONCEPT_OZONE
+IN_C6_teleology_Shelter >>[1:1.0]>> CONCEPT_OZONE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_OZONE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_OZONE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_OZONE
+IN_C10_sensory_Visual >>[1:1.0]>> CONCEPT_OZONE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_OZONE
+IN_C12_trajectory_Degradation >>[1:1.0]>> CONCEPT_OZONE
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C2_genesis_Abiogenic >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C3_scale_Geographic >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C4_texture_Brittle >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C5_topology_Planar >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C6_teleology_Shelter >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C10_sensory_Tactile >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_GRAPHITE
+IN_C1_state_Gas >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C3_scale_Subatomic >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C4_texture_Intangible >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C5_topology_Amorphous >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C7_energy_ActiveThermal >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C9_complexity_Homogeneous >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_AMMONIA
+IN_C1_state_Solid >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C2_genesis_Biogenic >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C3_scale_Astronomical >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C4_texture_Rigid >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C5_topology_Linear >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C6_teleology_Resource >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C7_energy_Kinetic >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C8_chronotope_Permanent >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C9_complexity_Elementary >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C10_sensory_Chemosensory >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C11_valuation_Constructive >>[1:1.0]>> CONCEPT_CALCIUM
+IN_C12_trajectory_Emergence >>[1:1.0]>> CONCEPT_CALCIUM
+
+// End of generated Milestone 1 pilot ontology circuit

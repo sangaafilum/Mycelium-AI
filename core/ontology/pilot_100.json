@@ -1,0 +1,5602 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "domain": "Domain_Biological",
+    "extract": "The round, edible pomaceous fruit of an apple tree, with crisp flesh, thin skin, seeds, and sweet taste.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Oak",
+    "domain": "Domain_Biological",
+    "extract": "A large deciduous hardwood tree of genus Quercus with deeply lobed leaves, acorns, and durable dense wood.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Equilibrium",
+        "index": 1
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Wolf",
+    "domain": "Domain_Biological",
+    "extract": "A carnivorous wild canine mammal living in social packs, possessing sharp teeth, fur, and predatory instincts.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Network",
+        "index": 3
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mushroom",
+    "domain": "Domain_Biological",
+    "extract": "The fleshy, spore-bearing fruiting body of a fungus, typically produced above ground on soil or its food source.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Wheat",
+    "domain": "Domain_Biological",
+    "extract": "A cereal grain grass cultivated globally for its edible starchy seeds, milled into flour for human food.",
+    "vector": {
+      "C1_state": {
+        "name": "Plasma",
+        "index": 3
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Honeybee",
+    "domain": "Domain_Biological",
+    "extract": "A social flying insect that produces honey and beeswax, pollinating flowering plants with winged flight.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Salmon",
+    "domain": "Domain_Biological",
+    "extract": "An anadromous migratory fish with pink flesh, swimming upstream to spawn in freshwater rivers.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Cyclic",
+        "index": 2
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Rose",
+    "domain": "Domain_Biological",
+    "extract": "A woody perennial flowering plant of genus Rosa, with thorny stems, fragrant red petals, and ornamental flowers.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Whale",
+    "domain": "Domain_Biological",
+    "extract": "A massive aquatic marine mammal breathing air through a blowhole, swimming through ocean depths.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Bacteria",
+    "domain": "Domain_Biological",
+    "extract": "Microscopic single-celled prokaryotic microorganisms lacking a nucleus, reproducing rapidly by cell division.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Pine",
+    "domain": "Domain_Biological",
+    "extract": "An evergreen coniferous tree with needle-shaped leaves, cones containing seeds, and aromatic resinous wood.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Spider",
+    "domain": "Domain_Biological",
+    "extract": "An eight-legged predatory arthropod producing silk threads to spin webs for capturing insect prey.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Elastic",
+        "index": 2
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Eagle",
+    "domain": "Domain_Biological",
+    "extract": "A large bird of prey with keen eyesight, hooked beak, and powerful talons hunting small animals.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Carrot",
+    "domain": "Domain_Biological",
+    "extract": "A biennial root vegetable, typically orange, crisp, and fibrous, rich in beta-carotene and dietary nutrients.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Cyclic",
+        "index": 2
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Potato",
+    "domain": "Domain_Biological",
+    "extract": "A starchy tuberous root vegetable of Solanum tuberosum, growing underground as a major human carbohydrate food.",
+    "vector": {
+      "C1_state": {
+        "name": "Plasma",
+        "index": 3
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Yeast",
+    "domain": "Domain_Biological",
+    "extract": "Eukaryotic single-celled fungi capable of fermenting sugars into alcohol and carbon dioxide in baking and brewing.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Grass",
+    "domain": "Domain_Biological",
+    "extract": "Monocotyledonous herbaceous plants with narrow leaves growing from the base, forming ground pastures and lawns.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Regulator",
+        "index": 5
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Horse",
+    "domain": "Domain_Biological",
+    "extract": "A large domesticated four-legged herbivorous mammal with hooves, used for transport, riding, and draft work.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Shark",
+    "domain": "Domain_Biological",
+    "extract": "A predatory cartilaginous fish with multiple gill slits, triangular sharp teeth, and streamlined hydrodynamic body.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Tomato",
+    "domain": "Domain_Biological",
+    "extract": "The glossy red edible berry of Solanum lycopersicum, containing juicy pulp and seeds, used in cuisine.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Orange",
+    "domain": "Domain_Biological",
+    "extract": "A round citrus fruit with a fragrant textured rind, segmented juicy pulp, and sweet-acidic vitamin C juice.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Bamboo",
+    "domain": "Domain_Biological",
+    "extract": "A fast-growing woody perennial evergreen grass with hollow stems, immense tensile strength, and fibrous stalks.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Fibrous",
+        "index": 4
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ant",
+    "domain": "Domain_Biological",
+    "extract": "A colonial eusocial insect living in underground mounds with complex division of labor and high collective organization.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Elephant",
+    "domain": "Domain_Biological",
+    "extract": "The largest terrestrial mammal, possessing a long prehensile muscular trunk, large ears, and ivory tusks.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Coral",
+    "domain": "Domain_Biological",
+    "extract": "Marine invertebrate animals living in compact colonies of polyps, secreting calcium carbonate hard exoskeletons.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Systemic",
+        "index": 3
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Hammer",
+    "domain": "Domain_Technological",
+    "extract": "A handheld manual striking tool consisting of a heavy metal head mounted perpendicularly on a rigid handle.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Knife",
+    "domain": "Domain_Technological",
+    "extract": "A cutting tool or handheld weapon with an exposed sharp edged blade affixed to an ergonomic handle.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "Lever",
+    "domain": "Domain_Technological",
+    "extract": "A rigid beam pivoted at a fixed fulcrum used to amplify mechanical force and lift heavy loads.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Wheel",
+    "domain": "Domain_Technological",
+    "extract": "A circular mechanical component rotating on an axle, reducing friction to transport vehicles or transfer torque.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Anvil",
+    "domain": "Domain_Technological",
+    "extract": "A heavy forged steel block with a flat working surface upon which hot metals are hammered and shaped.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Planar",
+        "index": 1
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Telescope",
+    "domain": "Domain_Technological",
+    "extract": "An optical instrument using lenses or curved mirrors to magnify distant astronomical celestial bodies.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Cosmogenic",
+        "index": 4
+      },
+      "C3_scale": {
+        "name": "Astronomical",
+        "index": 4
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Microscope",
+    "domain": "Domain_Technological",
+    "extract": "An optical device with compound lenses to produce magnified visual images of microscopic specimens.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Informer",
+        "index": 4
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Engine",
+    "domain": "Domain_Technological",
+    "extract": "A machine designed to convert thermal, chemical, or electrical energy into mechanical work and motion.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Battery",
+    "domain": "Domain_Technological",
+    "extract": "An electrochemical storage device that converts stored chemical potential energy into electrical current.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Transistor",
+    "domain": "Domain_Technological",
+    "extract": "A solid-state semiconductor electronic device used to amplify or switch electrical signals and power.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Compass",
+    "domain": "Domain_Technological",
+    "extract": "A navigational instrument with a magnetized needle pointing toward the Earth's magnetic north pole.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Astronomical",
+        "index": 4
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Clock",
+    "domain": "Domain_Technological",
+    "extract": "A mechanical or electronic timekeeping instrument measuring, displaying, and synchronizing hours and minutes.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Laser",
+    "domain": "Domain_Technological",
+    "extract": "A device that emits a coherent, monochromatic, collimated beam of electromagnetic light radiation.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Turbine",
+    "domain": "Domain_Technological",
+    "extract": "A rotary mechanical machine that extracts kinetic energy from a fluid flow (gas, steam, water) into shaft work.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Computer",
+    "domain": "Domain_Technological",
+    "extract": "A programmable digital electronic machine that executes algorithmic instructions, processing data and code.",
+    "vector": {
+      "C1_state": {
+        "name": "Pattern",
+        "index": 5
+      },
+      "C2_genesis": {
+        "name": "Virtual",
+        "index": 3
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "Resistor",
+    "domain": "Domain_Technological",
+    "extract": "A passive two-terminal electronic component that implements electrical resistance as a circuit element.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Network",
+        "index": 3
+      },
+      "C6_teleology": {
+        "name": "Regulator",
+        "index": 5
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Capacitor",
+    "domain": "Domain_Technological",
+    "extract": "A passive electrical component consisting of two conducting plates storing energy in an electrostatic field.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Antenna",
+    "domain": "Domain_Technological",
+    "extract": "An electrical transducer device that converts radio frequency electromagnetic currents into radiating radio waves.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Cyclic",
+        "index": 2
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Pump",
+    "domain": "Domain_Technological",
+    "extract": "A mechanical apparatus used to move fluids (liquids or gases) by positive displacement or centrifugal mechanical action.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Gear",
+    "domain": "Domain_Technological",
+    "extract": "A toothed wheel that meshes with another to transmit torque, change speed, or alter rotational direction.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Screwdriver",
+    "domain": "Domain_Technological",
+    "extract": "A handheld tool with a shaped tip fitting into a screw head to turn, drive, or remove threaded fasteners.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Mirror",
+    "domain": "Domain_Technological",
+    "extract": "A reflective planar or curved glass surface with a metallic backing reflecting visible light rays specularly.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Planar",
+        "index": 1
+      },
+      "C6_teleology": {
+        "name": "Informer",
+        "index": 4
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Lens",
+    "domain": "Domain_Technological",
+    "extract": "A transparent optical glass element with curved surfaces that refracts light beams to converge or diverge.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Informer",
+        "index": 4
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Transformer",
+    "domain": "Domain_Technological",
+    "extract": "A passive electrical device transferring alternating electrical power between circuits through electromagnetic induction.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Anthropogenic",
+        "index": 2
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Cyclic",
+        "index": 2
+      },
+      "C9_complexity": {
+        "name": "Composite",
+        "index": 2
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Dynamo",
+    "domain": "Domain_Technological",
+    "extract": "An electrical generator that converts mechanical shaft rotation into direct current electricity using magnetic coils.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Tool",
+        "index": 1
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Lightning",
+    "domain": "Domain_Phenomena",
+    "extract": "A high-voltage electrostatic discharge phenomenon between clouds or ground, producing plasma and thunder.",
+    "vector": {
+      "C1_state": {
+        "name": "Plasma",
+        "index": 3
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Ephemeral",
+        "index": 1
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Acoustic",
+        "index": 1
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Thunder",
+    "domain": "Domain_Phenomena",
+    "extract": "The loud acoustic acoustic shockwave produced by the rapid thermal expansion of air heated by lightning plasma.",
+    "vector": {
+      "C1_state": {
+        "name": "Plasma",
+        "index": 3
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Fractal",
+        "index": 2
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Ephemeral",
+        "index": 1
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Acoustic",
+        "index": 1
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Rain",
+    "domain": "Domain_Phenomena",
+    "extract": "Liquid water droplets condensing from atmospheric water vapor and falling under gravity onto Earth's surface.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Astronomical",
+        "index": 4
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Planar",
+        "index": 1
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Fire",
+    "domain": "Domain_Phenomena",
+    "extract": "The visible exothermic chemical oxidation process of combustion, releasing heat, light, flames, and smoke.",
+    "vector": {
+      "C1_state": {
+        "name": "Plasma",
+        "index": 3
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Earthquake",
+    "domain": "Domain_Phenomena",
+    "extract": "A sudden violent seismic shaking of the ground caused by the release of kinetic energy along geological faults.",
+    "vector": {
+      "C1_state": {
+        "name": "Pattern",
+        "index": 5
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Tornado",
+    "domain": "Domain_Phenomena",
+    "extract": "A violently rotating column of air in contact with both the earth surface and a cumulonimbus cloud.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Planar",
+        "index": 1
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Acoustic",
+        "index": 1
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Glacier",
+    "domain": "Domain_Phenomena",
+    "extract": "A persistent massive body of dense ice moving slowly downhill under its own gravitational weight.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Anthropometric",
+        "index": 2
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Aurora",
+    "domain": "Domain_Phenomena",
+    "extract": "A natural light display in high-latitude skies caused by solar wind particles colliding with magnetospheric gases.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Informer",
+        "index": 4
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Rainbow",
+    "domain": "Domain_Phenomena",
+    "extract": "An optical meteorological phenomenon displaying a spectrum of light in the sky caused by reflection and refraction in rain.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Informer",
+        "index": 4
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Tsunami",
+    "domain": "Domain_Phenomena",
+    "extract": "A series of immense water ocean waves caused by underwater earthquakes, volcanic eruptions, or landslides.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Cyclic",
+        "index": 2
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Volcano",
+    "domain": "Domain_Phenomena",
+    "extract": "A geological rupture in the planetary crust through which molten lava, volcanic ash, and hot gases erupt.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Fog",
+    "domain": "Domain_Phenomena",
+    "extract": "A dense low-lying cloud of water droplets suspended in the air near the ground, reducing visual visibility.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "Wind",
+    "domain": "Domain_Phenomena",
+    "extract": "The perceptible natural movement of air currents flowing from areas of high atmospheric pressure to low pressure.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Combustion",
+    "domain": "Domain_Phenomena",
+    "extract": "A high-temperature exothermic chemical reaction between a fuel and an oxidant producing heat and flue gas.",
+    "vector": {
+      "C1_state": {
+        "name": "Plasma",
+        "index": 3
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Evaporation",
+    "domain": "Domain_Phenomena",
+    "extract": "The thermodynamic phase transition process by which liquid molecules gain kinetic energy and escape into gas.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Condensation",
+    "domain": "Domain_Phenomena",
+    "extract": "The physical change of state where a gas or vapor transitions into a liquid upon cooling.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Geyser",
+    "domain": "Domain_Phenomena",
+    "extract": "A natural hot spring that intermittently discharges boiling hot water and steam violently into the atmosphere.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Eclipse",
+    "domain": "Domain_Phenomena",
+    "extract": "An astronomical alignment phenomenon where one celestial body passes into the shadow cast by another.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Cosmogenic",
+        "index": 4
+      },
+      "C3_scale": {
+        "name": "Astronomical",
+        "index": 4
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "Avalanche",
+    "domain": "Domain_Phenomena",
+    "extract": "A rapid downhill flow of a massive volume of snow, ice, and rock debris tumbling down a steep mountain slope.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Rust",
+    "domain": "Domain_Phenomena",
+    "extract": "The reddish-brown iron oxide compound formed by the electrochemical oxidation of iron in moisture and oxygen.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Decay",
+    "domain": "Domain_Phenomena",
+    "extract": "The biological breakdown and organic decomposition of dead matter by bacteria and fungi into simple minerals.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Freezing",
+    "domain": "Domain_Phenomena",
+    "extract": "The phase transition where a liquid cools below its freezing point and crystallizes into a solid state.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "Boiling",
+    "domain": "Domain_Phenomena",
+    "extract": "The rapid thermodynamic vaporization of a liquid occurring when vapor pressure equals surrounding ambient pressure.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "Magnetism",
+    "domain": "Domain_Phenomena",
+    "extract": "A physical fundamental force mediated by magnetic fields produced by electric currents and magnetic dipoles.",
+    "vector": {
+      "C1_state": {
+        "name": "Field",
+        "index": 4
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "Gravitation",
+    "domain": "Domain_Phenomena",
+    "extract": "The universal fundamental physical interaction where all masses and energy attract one another in spacetime.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Cosmogenic",
+        "index": 4
+      },
+      "C3_scale": {
+        "name": "Astronomical",
+        "index": 4
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "Water",
+    "domain": "Domain_Substances",
+    "extract": "A transparent odorless liquid chemical substance of formula H2O forming streams, lakes, oceans, and living fluid.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "Iron",
+    "domain": "Domain_Substances",
+    "extract": "A dense, silvery-grey ferromagnetic transition metal element (Fe), easily forged and vital in industrial steel.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 78,
+    "name": "Gold",
+    "domain": "Domain_Substances",
+    "extract": "A precious dense, malleable, and ductile yellow metallic element (Au), resistant to chemical corrosion and tarnish.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "Diamond",
+    "domain": "Domain_Substances",
+    "extract": "A solid metastable allotrope of pure carbon with atoms arranged in a crystal lattice, possessing extreme hardness.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "PassiveThermal",
+        "index": 1
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Equilibrium",
+        "index": 1
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "Oxygen",
+    "domain": "Domain_Substances",
+    "extract": "A colorless odorless gaseous chemical element (O2) essential for aerobic cellular respiration and combustion.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "Hydrogen",
+    "domain": "Domain_Substances",
+    "extract": "The lightest, most abundant chemical element in the universe, a colorless flammable diatomic gas (H2).",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "Carbon",
+    "domain": "Domain_Substances",
+    "extract": "A nonmetallic tetravalent chemical element forming the chemical basis of all known organic life forms.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "Quartz",
+    "domain": "Domain_Substances",
+    "extract": "A hard crystalline mineral composed of silicon and oxygen atoms in a continuous SiO4 framework.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 84,
+    "name": "Granite",
+    "domain": "Domain_Substances",
+    "extract": "A coarse-grained intrusive felsic igneous rock composed predominantly of quartz, feldspar, and mica minerals.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 85,
+    "name": "Basalt",
+    "domain": "Domain_Substances",
+    "extract": "A dense dark extrusive igneous volcanic rock formed by the rapid cooling of basaltic lava on oceanic crust.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 86,
+    "name": "Copper",
+    "domain": "Domain_Substances",
+    "extract": "A soft, malleable reddish-orange transition metal element with extremely high electrical and thermal conductivity.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Plastic",
+        "index": 1
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 87,
+    "name": "Silver",
+    "domain": "Domain_Substances",
+    "extract": "A lustrous white precious transition metal element exhibiting the highest electrical conductivity of any metal.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 88,
+    "name": "Silicon",
+    "domain": "Domain_Substances",
+    "extract": "A hard, brittle crystalline semiconductor metalloid element used as the foundation for modern microchips.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Micro",
+        "index": 1
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "Salt",
+    "domain": "Domain_Substances",
+    "extract": "A crystalline mineral composed primarily of sodium chloride (NaCl), an essential biological nutrient and seasoning.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Process",
+        "index": 3
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 90,
+    "name": "Sulfur",
+    "domain": "Domain_Substances",
+    "extract": "A bright yellow nonmetallic crystalline chemical element forming sulfide minerals, gunpowder, and sulfuric acid.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 91,
+    "name": "Nitrogen",
+    "domain": "Domain_Substances",
+    "extract": "A colorless odorless inert diatomic chemical gas (N2) comprising seventy-eight percent of Earth's atmosphere.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Shelter",
+        "index": 2
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 92,
+    "name": "Helium",
+    "domain": "Domain_Substances",
+    "extract": "A colorless, odorless, non-toxic, inert noble gas, the second lightest element, glowing pale yellow in plasma.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Destructor",
+        "index": 3
+      },
+      "C7_energy": {
+        "name": "Inert",
+        "index": 4
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 93,
+    "name": "Lead",
+    "domain": "Domain_Substances",
+    "extract": "A heavy, dense, soft, malleable grey toxic metal element with a low melting point and high radiation shielding.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Plastic",
+        "index": 1
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Shelter",
+        "index": 2
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Destructive",
+        "index": 1
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 94,
+    "name": "Mercury",
+    "domain": "Domain_Substances",
+    "extract": "A heavy, silvery liquid transition metal element that remains liquid at standard ambient temperature and pressure.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "Petroleum",
+    "domain": "Domain_Substances",
+    "extract": "A naturally occurring yellowish-black viscous liquid mixture of hydrocarbons found in geological formations.",
+    "vector": {
+      "C1_state": {
+        "name": "Liquid",
+        "index": 1
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Viscous",
+        "index": 5
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Neutral",
+        "index": 2
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 96,
+    "name": "Methane",
+    "domain": "Domain_Substances",
+    "extract": "A colorless, odorless, flammable hydrocarbon gas (CH4), the primary constituent of natural fossil fuel gas.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Potential",
+        "index": 3
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Imperceptible",
+        "index": 4
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 97,
+    "name": "Ozone",
+    "domain": "Domain_Substances",
+    "extract": "An inorganic molecule composed of three oxygen atoms (O3), forming a protective layer blocking UV rays in the stratosphere.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Symmetric",
+        "index": 0
+      },
+      "C6_teleology": {
+        "name": "Shelter",
+        "index": 2
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Visual",
+        "index": 0
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Degradation",
+        "index": 2
+      }
+    }
+  },
+  {
+    "id": 98,
+    "name": "Graphite",
+    "domain": "Domain_Substances",
+    "extract": "A soft, slippery crystalline allotrope of carbon with layered planar sheets conducting electricity well.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Abiogenic",
+        "index": 1
+      },
+      "C3_scale": {
+        "name": "Geographic",
+        "index": 3
+      },
+      "C4_texture": {
+        "name": "Brittle",
+        "index": 3
+      },
+      "C5_topology": {
+        "name": "Planar",
+        "index": 1
+      },
+      "C6_teleology": {
+        "name": "Shelter",
+        "index": 2
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Tactile",
+        "index": 3
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 99,
+    "name": "Ammonia",
+    "domain": "Domain_Substances",
+    "extract": "A pungent, colorless alkaline gas compound of nitrogen and hydrogen (NH3), used in industrial fertilizers.",
+    "vector": {
+      "C1_state": {
+        "name": "Gas",
+        "index": 2
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Subatomic",
+        "index": 0
+      },
+      "C4_texture": {
+        "name": "Intangible",
+        "index": 6
+      },
+      "C5_topology": {
+        "name": "Amorphous",
+        "index": 4
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "ActiveThermal",
+        "index": 0
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Homogeneous",
+        "index": 1
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  },
+  {
+    "id": 100,
+    "name": "Calcium",
+    "domain": "Domain_Substances",
+    "extract": "A reactive alkaline earth metal element (Ca), an essential chemical constituent of animal bones, teeth, and shells.",
+    "vector": {
+      "C1_state": {
+        "name": "Solid",
+        "index": 0
+      },
+      "C2_genesis": {
+        "name": "Biogenic",
+        "index": 0
+      },
+      "C3_scale": {
+        "name": "Astronomical",
+        "index": 4
+      },
+      "C4_texture": {
+        "name": "Rigid",
+        "index": 0
+      },
+      "C5_topology": {
+        "name": "Linear",
+        "index": 5
+      },
+      "C6_teleology": {
+        "name": "Resource",
+        "index": 0
+      },
+      "C7_energy": {
+        "name": "Kinetic",
+        "index": 2
+      },
+      "C8_chronotope": {
+        "name": "Permanent",
+        "index": 0
+      },
+      "C9_complexity": {
+        "name": "Elementary",
+        "index": 0
+      },
+      "C10_sensory": {
+        "name": "Chemosensory",
+        "index": 2
+      },
+      "C11_valuation": {
+        "name": "Constructive",
+        "index": 0
+      },
+      "C12_trajectory": {
+        "name": "Emergence",
+        "index": 0
+      }
+    }
+  }
+]
