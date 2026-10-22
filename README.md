@@ -202,20 +202,18 @@ flowchart TD
   4. **Synaptic WAL & Hot In-Memory Continuity:**  
      To eliminate data loss from unexpected power failures or system crashes, a high-throughput **Synaptic Write-Ahead Log (`live_journal.wal`)** flushes every spike, doubt activation, and lexical token atomically to disk on the fly. Simultaneously, closed topics remain cached in a **Hot In-Memory Tier** on Apple Silicon unified memory, providing instant sub-millisecond associative recall during active conversation.
 
-* **Stage 9: Subconscious Overseer & Autonomic Immune System (Architectural Formulation)**  
-  *Preventing Cognitive Chaos in Infinite Modular Scaling:* As Mycelium expands across thousands of concepts, memories, and sensory inputs, higher-order cortical cognition requires an autonomic substrate to prevent cognitive meltdown (epileptic spike cascades, parasitic loops, and semantic corruption).
-  1. **The Inviolable Axiomatic Code (Anti-Self-Destruction Laws):**  
-     A hardwired, immutable set of ontological invariants encoded into the Subconscious that can never be overwritten by learning, dialogue, or external feedback. These enforce temporal causality, biophysical consistency, and network survival invariants.
-  2. **Dedicated Control Highway (Out-of-Band Modulatory Bus):**  
-     In addition to associative inter-module synaptic connections, a dedicated supervisory bus traverses every module. This allows the Subconscious to monitor membrane potential flux, ping module health, and enforce global homeostasis via distributed GABAergic inhibitory clamping.
-  3. **The Shadow Tutor (Continuous Optimization & Error Detection):**  
-     Operating silently in background cycles, the Subconscious acts as an internal tutor. It evaluates active synaptic plasticity, prunes dead-end doubt branches, consolidates inter-day memory bridges, and optimizes energy efficiency without interrupting foreground conversation.
-  4. **The Autonomic Immune Organs & Quarantine Sandbox:**  
-     Immunity is decoupled from the cognitive Subconscious into specialized autonomic organs. Newly ingested modules (new vocabularies, plugins, or external tools) are never linked directly to the core. They are routed into a strict **Quarantine Sandbox** where the immune system fires diagnostic stimulus probes. Only when verified free of parasitic loops and energetic anomalies does the Subconscious authorize synaptic annexation into the active Mycelium graph.
-  5. **The Subconscious Repair Lab (Dark Crucible & Error Metamorphosis):**  
-     Quarantine is not a dead-end disposal site; it is an active research laboratory. Flawed modules, cyclic loops, and logical contradictions are topological raw material. The Repair Lab decompiles quarantined graphs, inserts refractory dampeners to break runaway feedback, and refactors erroneous patterns into robust, calibrated synaptic structures. If a contradiction is biologically irreconcilable, the lab synthesizes an **"epistemic antibody" (inhibitory negative pattern)**, inoculating the network against ever repeating that error. Mistakes become lessons.
-  6. **Topological Memory Optimization (The Physarum Tokyo Router):**  
-     Emulating the famous experiment where the slime mold *Physarum polycephalum* optimized the Tokyo rail network, the Subconscious continuously evaluates daytime associative trajectories. It prunes sluggish conversational detours, thickens high-frequency circuits into instantaneous express superhighways ($W \uparrow$, delay $\to 1$), and detects **epistemic voids (gaps where missing fundamental laws cause inefficient routing)**, dispatching targeted background prompts to expand the ontology.
+* **Stage 9: Subconscious Overseer, Autonomic Immunity & Dark Crucible Repair Lab**  
+  *Preventing Cognitive Chaos in Infinite Modular Scaling:* As Mycelium expands across thousands of concepts, memories, and sensory inputs, higher-order cortical cognition requires an autonomic substrate to prevent cognitive meltdown (epileptic spike cascades, parasitic loops, and semantic corruption):
+  1. **The Inviolable Axiomatic Code (Anti-Self-Destruction Laws):** Hardwired ontological invariants (causality barrier, matter consistency) immune to LTD decay.
+  2. **Dedicated Control Highway (Out-of-Band Modulatory Bus):** Supervisory bus enforcing global homeostasis via distributed GABAergic inhibitory clamping.
+  3. **The Shadow Tutor & Repair Lab (Dark Crucible):** Quarantine sandbox where corrupted loops are healed with refractory dampeners and irreconcilable errors yield epistemic antibodies.
+  4. **Topological Memory Optimization (The Physarum Tokyo Router):** Compaction of sluggish conversational detours into instantaneous express superhighways ($W \uparrow$, delay $\to 1$) and detection of epistemic voids.
+
+* **Stage 10: The Mycelial Forest (Wood Wide Web) — Clustered Federation of Specialized Organisms**  
+  *Paradigm Shift: From Monolithic Brain to Symbiotic Ecosystem:* In nature, fungal networks never exist as solitary leviathans — trees and fungi form specialized federations (mineral extraction, water distribution, hazard messaging). Attempting to pack all human knowledge into a single monolithic spiking graph degrades selectivity. Mycelium scales into a **Tree-Clustered Federation of Specialized Mycelia**:
+  1. **Domain Purity:** Partitioned into independent ontological organisms: *Physics & Matter Mycelium*, *Biology & Life Mycelium*, *Interlingua Mycelium*, and *Formal Logic Mycelium*. Each organism remains compact, devoid of conversational noise, and finely tuned to its respective axioms.
+  2. **Anastomosis Protocol (Hyphal Spiking Bridges):** Biological anastomosis (the fusion of distinct fungal hyphae for mutual nutrient exchange) is realized as zero-copy cross-cluster gateways on Apple Silicon unified memory, allowing a Root Arbiter to query domain-specific mycelia in parallel.
+  3. **Horizontal Immune Transfer:** When the Repair Lab in one specialized mycelium identifies an error and generates an "epistemic antibody", that inhibitory signature is broadcast across the entire federation: an error in one educates the entire Forest.
 
 ---
 
