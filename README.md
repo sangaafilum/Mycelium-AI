@@ -214,6 +214,9 @@ flowchart TD
   1. **Domain Purity:** Partitioned into independent ontological organisms: *Physics & Matter Mycelium*, *Biology & Life Mycelium*, *Interlingua Mycelium*, and *Formal Logic Mycelium*. Each organism remains compact, devoid of conversational noise, and finely tuned to its respective axioms.
   2. **Anastomosis Protocol (Hyphal Spiking Bridges):** Biological anastomosis (the fusion of distinct fungal hyphae for mutual nutrient exchange) is realized as zero-copy cross-cluster gateways on Apple Silicon unified memory, allowing a Root Arbiter to query domain-specific mycelia in parallel.
   3. **Horizontal Immune Transfer:** When the Repair Lab in one specialized mycelium identifies an error and generates an "epistemic antibody", that inhibitory signature is broadcast across the entire federation: an error in one educates the entire Forest.
+  4. **Symbiotic Mitosis (Psychological Budding via Operator Pressure):** Specialization does not occur randomly. The organism profiles the psychological traits, values, and philosophical focus of its creator. Under cognitive pressure, it undergoes **mitosis (budding a clone)** tailored to augment that specific vector of the operator's mind.
+  5. **Dormant Spores & Background Patching (Resource Minimization):** To prevent compute explosion, clones remain as dormant spore crystals by default (0 watts, 0 RAM). They synthesize background synaptic patches for the core; a full clone is only mobilized under extreme continuous throughput.
+  6. **Hyphal Argot (Dense Symbolic Sub-Language):** Clones communicate internally not in sluggish human prose, but via a hyper-dense spiking argot (coordinates, firing thresholds $V_{th}$, temporal deltas $\Delta t$), while human speech (RU/EN) is synthesized strictly at the outward interface.
 
 ---
 
