@@ -212,6 +212,8 @@ flowchart TD
      Operating silently in background cycles, the Subconscious acts as an internal tutor. It evaluates active synaptic plasticity, prunes dead-end doubt branches, consolidates inter-day memory bridges, and optimizes energy efficiency without interrupting foreground conversation.
   4. **The Autonomic Immune Organs & Quarantine Sandbox:**  
      Immunity is decoupled from the cognitive Subconscious into specialized autonomic organs. Newly ingested modules (new vocabularies, plugins, or external tools) are never linked directly to the core. They are routed into a strict **Quarantine Sandbox** where the immune system fires diagnostic stimulus probes. Only when verified free of parasitic loops and energetic anomalies does the Subconscious authorize synaptic annexation into the active Mycelium graph.
+  5. **The Subconscious Repair Lab (Dark Crucible & Error Metamorphosis):**  
+     Quarantine is not a dead-end disposal site; it is an active research laboratory. Flawed modules, cyclic loops, and logical contradictions are topological raw material. The Repair Lab decompiles quarantined graphs, inserts refractory dampeners to break runaway feedback, and refactors erroneous patterns into robust, calibrated synaptic structures. If a contradiction is biologically irreconcilable, the lab synthesizes an **"epistemic antibody" (inhibitory negative pattern)**, inoculating the network against ever repeating that error. Mistakes become lessons.
 
 ---
 
