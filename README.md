@@ -226,7 +226,7 @@ flowchart TD
 
 ---
 
-## 🗺️ Engineering Roadmap
+## 🗺️ Master Engineering Roadmap (2026–2027)
 
 - [x] **Parallel Spatial Alphabet Receptor Bus**
 - [x] **Hierarchical Syllable & Word Recognition Trie**
@@ -236,10 +236,11 @@ flowchart TD
 - [x] **Hardware Proof-of-Concept on Apple Metal GPU (Tree of Matter & Doubt Detector)**
 - [x] **Crystalline Episodic Vault (CEV) & Live Crash-Resilient Memory Prototype**
 - [x] **Subconscious Overseer & Autonomic Immune System Architecture**
-- [ ] **Phase 1: Multi-Lingual Interlingua Bridge** — Mapping Russian, English, and multilingual lexicons onto invariant semantic conceptual nodes.
-- [ ] **Phase 2: Working Memory Loops & Conversational Protocol** — Recurrent synaptic feedback loops for temporal context retention.
-- [ ] **Phase 3: Subconscious Control Highway & Immune Sandbox Prototyping** — Hardware validation of out-of-band monitoring and module quarantine.
-- [ ] **Phase 4: Webster Graph Full Pipeline Integration** — Scaling self-reflection across all 16,000+ lexical nodes.
+- [ ] **Milestone 1: Automated Ontology Invariant Parser (Webster / Wikidata Knowledge Expansion)**
+- [ ] **Milestone 2: Bidirectional Conversational Engine & Recurrent Working Memory STM Loops**
+- [ ] **Milestone 3: The Wood Wide Web Cluster — Symbiotic Mitosis, Cryo-Spores, DNA Archetypes & Bytecode Protocol**
+- [ ] **Milestone 4: Multilingual Interlingua Bridge (RU ⇄ EN ⇄ Semantic Topology)**
+- [ ] **Milestone 5: Sovereign Neuromorphic Silicon (FPGA / Bare-Metal Physical Synthesis)**
 
 ---
 
