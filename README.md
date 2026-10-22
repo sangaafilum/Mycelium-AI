@@ -239,8 +239,9 @@ flowchart TD
 - [ ] **Milestone 1: Automated Ontology Invariant Parser (Webster / Wikidata Knowledge Expansion)**
 - [ ] **Milestone 2: Bidirectional Conversational Engine & Recurrent Working Memory STM Loops**
 - [ ] **Milestone 3: The Wood Wide Web Cluster — Symbiotic Mitosis, Cryo-Spores, DNA Archetypes & Bytecode Protocol**
-- [ ] **Milestone 4: Multilingual Interlingua Bridge (RU ⇄ EN ⇄ Semantic Topology)**
-- [ ] **Milestone 5: Sovereign Neuromorphic Silicon (FPGA / Bare-Metal Physical Synthesis)**
+- [ ] **Milestone 4: Biomorphic Software Assimilation (Linux ELF Reverse-Engineering ➔ Beszercess Topology & Obscura Shield)**
+- [ ] **Milestone 5: Multilingual Interlingua Bridge (RU ⇄ EN ⇄ Semantic Topology)**
+- [ ] **Milestone 6: Sovereign Neuromorphic Silicon (FPGA / Bare-Metal Physical Living Metal Synthesis)**
 
 ---
 
