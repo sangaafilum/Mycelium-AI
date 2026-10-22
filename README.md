@@ -214,6 +214,8 @@ flowchart TD
      Immunity is decoupled from the cognitive Subconscious into specialized autonomic organs. Newly ingested modules (new vocabularies, plugins, or external tools) are never linked directly to the core. They are routed into a strict **Quarantine Sandbox** where the immune system fires diagnostic stimulus probes. Only when verified free of parasitic loops and energetic anomalies does the Subconscious authorize synaptic annexation into the active Mycelium graph.
   5. **The Subconscious Repair Lab (Dark Crucible & Error Metamorphosis):**  
      Quarantine is not a dead-end disposal site; it is an active research laboratory. Flawed modules, cyclic loops, and logical contradictions are topological raw material. The Repair Lab decompiles quarantined graphs, inserts refractory dampeners to break runaway feedback, and refactors erroneous patterns into robust, calibrated synaptic structures. If a contradiction is biologically irreconcilable, the lab synthesizes an **"epistemic antibody" (inhibitory negative pattern)**, inoculating the network against ever repeating that error. Mistakes become lessons.
+  6. **Topological Memory Optimization (The Physarum Tokyo Router):**  
+     Emulating the famous experiment where the slime mold *Physarum polycephalum* optimized the Tokyo rail network, the Subconscious continuously evaluates daytime associative trajectories. It prunes sluggish conversational detours, thickens high-frequency circuits into instantaneous express superhighways ($W \uparrow$, delay $\to 1$), and detects **epistemic voids (gaps where missing fundamental laws cause inefficient routing)**, dispatching targeted background prompts to expand the ontology.
 
 ---
 
